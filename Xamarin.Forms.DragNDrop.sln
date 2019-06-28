@@ -3,9 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA2FD81F-063A-4555-A97C-928B2E39A8FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E6D4EC67-773C-4055-84D2-923D21F88CFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{CB483BC0-AA01-4C6D-9975-C85DBB404EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.DragNDrop", "src\Xamarin.Forms.DragNDrop\Xamarin.Forms.DragNDrop.csproj", "{8A854C66-8D09-42BE-A6C3-2788F1ED3432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.DragNDrop.Android", "src\Xamarin.Forms.DragNDrop.Android\Xamarin.Forms.DragNDrop.Android.csproj", "{C3DC52A4-3BF2-4FE9-96F7-2760B1C75EAD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A854C66-8D09-42BE-A6C3-2788F1ED3432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A854C66-8D09-42BE-A6C3-2788F1ED3432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A854C66-8D09-42BE-A6C3-2788F1ED3432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A854C66-8D09-42BE-A6C3-2788F1ED3432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DC52A4-3BF2-4FE9-96F7-2760B1C75EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DC52A4-3BF2-4FE9-96F7-2760B1C75EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DC52A4-3BF2-4FE9-96F7-2760B1C75EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DC52A4-3BF2-4FE9-96F7-2760B1C75EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A854C66-8D09-42BE-A6C3-2788F1ED3432} = {CA2FD81F-063A-4555-A97C-928B2E39A8FC}
+		{C3DC52A4-3BF2-4FE9-96F7-2760B1C75EAD} = {CA2FD81F-063A-4555-A97C-928B2E39A8FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF7CB2C8-A5EF-45F5-9B89-2C1073078078}
