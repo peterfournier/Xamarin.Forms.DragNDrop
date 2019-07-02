@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using MySquad.Models;
 using Xamarin.Forms.DragNDrop;
+using MySquad.Views;
 
 namespace MySquad.ViewModels
 {
@@ -18,21 +19,15 @@ namespace MySquad.ViewModels
             Marines = new OrderableCollection<Marine>();
             LoadMarinesCommand = new Command(async () => await ExecuteLoadMarinesCommand());
 
-            Marines.OrderChanged += (sender, eventArgs) =>
+            Marines.OrderChanged += MarinesCollectionChanged;
+            Marines.CollectionChanged += MarinesCollectionChanged;
+
+            MessagingCenter.Subscribe<NewMarinePage, Marine>(this, "AddMarine", async (obj, marine) =>
             {
-                var counter = 1;
-                foreach (var marine in Marines)
-                {
-                    marine.Order = counter;
-                    counter++;
-                }
-            };
-            //MessagingCenter.Subscribe<NewMarinePage, Marine>(this, "AddMarine", async (obj, marine) =>
-            //{
-            //    var newMarine = marine as Marine;
-            //    Marines.Add(newMarine);
-            //    await DataStore.AddMarineAsync(newMarine);
-            //});
+                var newMarine = marine as Marine;
+                Marines.Add(newMarine);
+                await DataStore.AddMarineAsync(newMarine);
+            });
         }
 
         async Task ExecuteLoadMarinesCommand()
@@ -61,6 +56,16 @@ namespace MySquad.ViewModels
             finally
             {
                 IsBusy = false;
+            }
+        }
+
+        void MarinesCollectionChanged (object sender, EventArgs eventArgs)
+        {
+            var counter = 1;
+            foreach (var marine in Marines)
+            {
+                marine.Order = counter;
+                counter++;
             }
         }
     }

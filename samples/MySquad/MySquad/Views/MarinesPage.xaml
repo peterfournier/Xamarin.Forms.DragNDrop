@@ -9,6 +9,9 @@
     xmlns:controls="clr-namespace:Xamarin.Forms.DragNDrop;assembly=Xamarin.Forms.DragNDrop"
     >
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
             <ListView 
@@ -30,12 +33,15 @@
 
                                 <StackLayout Orientation="Horizontal">
                                     <Label 
-                                        Text="{Binding Order, Mode=TwoWay}"
+                                        Text="{Binding Order}"
                                         FontSize="Large" 
                                         FontAttributes="Bold"
                                         />
 
-                                   
+                                    <Label Text="{Binding FullName}" 
+                                        LineBreakMode="NoWrap" 
+                                        Style="{DynamicResource ListItemTextStyle}" 
+                                        FontSize="16" />
                                 </StackLayout>
 
                                 <Label Text="{Binding Rank.ShortDescription}" 

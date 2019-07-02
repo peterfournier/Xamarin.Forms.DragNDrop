@@ -1,4 +1,5 @@
 ﻿using MySquad.Models;
+using System.Collections.Generic;
 
 namespace MySquad.Services
 {
@@ -16,5 +17,24 @@ namespace MySquad.Services
         public static MasterGunnerySergeant MasterGunnerySergeant = new MasterGunnerySergeant();
         public static SergeantMajor SergeantMajor = new SergeantMajor();
         public static SergeantMajorOfTheMarineCorps SergeantMajorOfTheMarineCorps = new SergeantMajorOfTheMarineCorps();
+
+        public static List<MarineCorpsRank> All()
+        {
+            return new List<MarineCorpsRank>()
+            {
+                new Private(),
+                new PrivateFirstClass(),
+                new LanceCorporal(),
+                new Corporal(),
+                new Sergeant(),
+                new StaffSergeant(),
+                new GunnerySergeant(),
+                new MasterSergeant(),
+                new FirstSergeant(),
+                new MasterGunnerySergeant(),
+                new SergeantMajor(),
+                new SergeantMajorOfTheMarineCorps()
+            };
+        }
     }
 }
