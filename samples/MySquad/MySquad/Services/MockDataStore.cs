@@ -6,61 +6,115 @@ using MySquad.Models;
 
 namespace MySquad.Services
 {
-    public class MockDataStore : IDataStore<Item>
+    public class MockDataStore : IDataStore<Marine, Guid>
     {
-        List<Item> items;
-
+        List<Marine> Marines;
+        List<FireTeam> FireTeams;
         public MockDataStore()
         {
-            items = new List<Item>();
-            var mockItems = new List<Item>
+            Marines = new List<Marine>();
+            var mockMarines = new List<Marine>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Marine { Order = 1, FirstName = "Theo", LastName = "Robrecht", Rank = MarineCorpsRankFactory.Sergeant },
+                new Marine { Order = 2, FirstName = "Ardito", LastName = "Prabhakar", Rank = MarineCorpsRankFactory.Corporal },
+                new Marine { Order = 3, FirstName = "Gilbert", LastName = "Lupus", Rank = MarineCorpsRankFactory.Corporal },
+                new Marine { Order = 4, FirstName = "Epaphras", LastName = "Teige", Rank = MarineCorpsRankFactory.Corporal },
+                new Marine { Order = 5, FirstName = "Gerolamo", LastName = "Brett", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 6, FirstName = "Neo", LastName = "Devaraja", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 7, FirstName = "Roberto", LastName = "Ankit", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 8, FirstName = "Krishna", LastName = "Aryan", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 9, FirstName = "Kepheus", LastName = "Arnold", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 10, FirstName = "Manlius", LastName = "Maikel", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 11, FirstName = "Mpho", LastName = "Evander", Rank = MarineCorpsRankFactory.PrivateFirstClass },
+                new Marine { Order = 12, FirstName = "Carran", LastName = "Otho", Rank = MarineCorpsRankFactory.PrivateFirstClass },
+                new Marine { Order = 13, FirstName = "Manas", LastName = "Oddr", Rank = MarineCorpsRankFactory.Private },
+                new Marine { Order = 14, FirstName = "Herb", LastName = "Dionysos", Rank = MarineCorpsRankFactory.Private },
             };
 
-            foreach (var item in mockItems)
+            FireTeams = new List<FireTeam>();
+            FireTeams.Add(new FireTeam(
+                "Alpha",
+                new Marine { FirstName = "Ardito", LastName = "Prabhakar", Rank = MarineCorpsRankFactory.Corporal }
+                )
             {
-                items.Add(item);
+                new Marine { Order = 1, FirstName = "Gerolamo", LastName = "Brett", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 2, FirstName = "Neo", LastName = "Devaraja", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 3, FirstName = "Mpho", LastName = "Evander", Rank = MarineCorpsRankFactory.PrivateFirstClass },
+                new Marine { Order = 4, FirstName = "Herb", LastName = "Dionysos", Rank = MarineCorpsRankFactory.Private },
+                new Marine { Order = 5, FirstName = "Gerolamo", LastName = "Brett", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 6, FirstName = "Neo", LastName = "Devaraja", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 7, FirstName = "Roberto", LastName = "Ankit", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 8, FirstName = "Krishna", LastName = "Aryan", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 9, FirstName = "Kepheus", LastName = "Arnold", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 10, FirstName = "Manlius", LastName = "Maikel", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 11, FirstName = "Mpho", LastName = "Evander", Rank = MarineCorpsRankFactory.PrivateFirstClass },
+                new Marine { Order = 12, FirstName = "Carran", LastName = "Otho", Rank = MarineCorpsRankFactory.PrivateFirstClass },
+                new Marine { Order = 13, FirstName = "Manas", LastName = "Oddr", Rank = MarineCorpsRankFactory.Private },
+                new Marine { Order = 14, FirstName = "Herb", LastName = "Dionysos", Rank = MarineCorpsRankFactory.Private },
+            });
+            FireTeams.Add(new FireTeam(
+                "Bravor",
+                new Marine { FirstName = "Gilbert", LastName = "Lupus", Rank = MarineCorpsRankFactory.Corporal }
+                )
+            {
+                new Marine { Order = 1, FirstName = "Roberto", LastName = "Ankit", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 2, FirstName = "Krishna", LastName = "Aryan", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 3, FirstName = "Carran", LastName = "Otho", Rank = MarineCorpsRankFactory.PrivateFirstClass },
+
+            });
+            FireTeams.Add(new FireTeam(
+                "Charlie",
+                new Marine { FirstName = "Ardito", LastName = "Prabhakar", Rank = MarineCorpsRankFactory.Corporal }
+                )
+            {
+                new Marine { Order = 1, FirstName = "Kepheus", LastName = "Arnold", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 2, FirstName = "Manlius", LastName = "Maikel", Rank = MarineCorpsRankFactory.LanceCorporal },
+                new Marine { Order = 3, FirstName = "Manas", LastName = "Oddr", Rank = MarineCorpsRankFactory.Private },
+            });
+
+            foreach (var Marine in mockMarines)
+            {
+                Marines.Add(Marine);
             }
         }
 
-        public async Task<bool> AddItemAsync(Item item)
+        public async Task<bool> AddMarineAsync(Marine Marine)
         {
-            items.Add(item);
+            Marines.Add(Marine);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> UpdateItemAsync(Item item)
+        public async Task<bool> UpdateMarineAsync(Marine Marine)
         {
-            var oldItem = items.Where((Item arg) => arg.Id == item.Id).FirstOrDefault();
-            items.Remove(oldItem);
-            items.Add(item);
+            var oldMarine = Marines.Where((Marine arg) => arg.ID == Marine.ID).FirstOrDefault();
+            Marines.Remove(oldMarine);
+            Marines.Add(Marine);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> DeleteItemAsync(string id)
+        public async Task<bool> DeleteMarineAsync(Guid id)
         {
-            var oldItem = items.Where((Item arg) => arg.Id == id).FirstOrDefault();
-            items.Remove(oldItem);
+            var oldMarine = Marines.Where((Marine arg) => arg.ID == id).FirstOrDefault();
+            Marines.Remove(oldMarine);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<Item> GetItemAsync(string id)
+        public async Task<Marine> GetMarineAsync(Guid id)
         {
-            return await Task.FromResult(items.FirstOrDefault(s => s.Id == id));
+            return await Task.FromResult(Marines.FirstOrDefault(s => s.ID == id));
         }
 
-        public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<Marine>> GetMarinesAsync(bool forceRefresh = false)
         {
-            return await Task.FromResult(items);
+            return await Task.FromResult(Marines);
+        }
+
+        public async Task<List<FireTeam>> GetFireTeamsAsync(bool forceRefresh = false)
+        {
+            return await Task.FromResult(FireTeams);
         }
     }
 }

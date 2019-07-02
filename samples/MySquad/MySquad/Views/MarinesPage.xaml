@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Class="MySquad.Views.MarinesPage"
+    xmlns:controls="clr-namespace:Xamarin.Forms.DragNDrop;assembly=Xamarin.Forms.DragNDrop"
+    >
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView 
+                x:Name="MarinessListView"
+                controls:Sorting.IsSortable="True"
+                HasUnevenRows="true"
+                IsGroupingEnabled="False"
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                ItemSelected="OnMarineSelected"
+                ItemsSource="{Binding Marines}"
+                RefreshCommand="{Binding LoadMarinesCommand}"
+                VerticalOptions="FillAndExpand"
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label 
+                                        Text="{Binding Order, Mode=TwoWay}"
+                                        FontSize="Large" 
+                                        FontAttributes="Bold"
+                                        />
+
+                                   
+                                </StackLayout>
+
+                                <Label Text="{Binding Rank.ShortDescription}" 
+                                    LineBreakMode="NoWrap"
+                                    Style="{DynamicResource ListItemDetailTextStyle}"
+                                    FontSize="13" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -31,9 +31,14 @@
 
     <!-- Your Pages -->
     <TabBar>
-        <Tab Title="Browse" Icon="tab_feed.png">
-            <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <Tab Title="Marines" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MarinesPage}" />
         </Tab>
+
+        <Tab Title="Squad" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SquadPage}" />
+        </Tab>
+        
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>

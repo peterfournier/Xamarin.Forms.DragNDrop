@@ -2,33 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Text;
 
-using Xamarin.Forms;
-
-using MySquad.Models;
-using MySquad.Services;
-
-namespace MySquad.ViewModels
+namespace MySquad.Models
 {
-    public class BaseViewModel : INotifyPropertyChanged
+    public abstract class BaseModel : INotifyPropertyChanged
     {
-        public IDataStore<Marine, Guid> DataStore => DependencyService.Get<IDataStore<Marine, Guid>>() ?? new MockDataStore();
-
-        bool isBusy = false;
-        public bool IsBusy
-        {
-            get { return isBusy; }
-            set { SetProperty(ref isBusy, value); }
-        }
-
-        string title = string.Empty;
-        public string Title
-        {
-            get { return title; }
-            set { SetProperty(ref title, value); }
-        }
-
-        protected bool SetProperty<T>(ref T backingStore, T value,
+        protected bool SetPropertyChanged<T>(ref T backingStore, T value,
             [CallerMemberName]string propertyName = "",
             Action onChanged = null)
         {

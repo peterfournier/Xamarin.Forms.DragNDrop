@@ -208,6 +208,2589 @@ namespace MySquad.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::MySquad.Droid.Resource.Styleable.GradientColorItem;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::MySquad.Droid.Resource.Styleable.GradientColorItem_android_color;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::MySquad.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_fade_in = global::MySquad.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_fade_out = global::MySquad.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::MySquad.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_popup_enter = global::MySquad.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_popup_exit = global::MySquad.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MySquad.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_slide_in_bottom = global::MySquad.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_slide_in_top = global::MySquad.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_slide_out_bottom = global::MySquad.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_slide_out_top = global::MySquad.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_tooltip_enter = global::MySquad.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.abc_tooltip_exit = global::MySquad.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::MySquad.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::MySquad.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.design_snackbar_in = global::MySquad.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.design_snackbar_out = global::MySquad.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.EnterFromLeft = global::MySquad.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.EnterFromRight = global::MySquad.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.ExitToLeft = global::MySquad.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animation.ExitToRight = global::MySquad.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.design_appbar_state_list_animator = global::MySquad.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.design_fab_hide_motion_spec = global::MySquad.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.design_fab_show_motion_spec = global::MySquad.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::MySquad.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::MySquad.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::MySquad.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::MySquad.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::MySquad.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::MySquad.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::MySquad.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarDivider = global::MySquad.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarItemBackground = global::MySquad.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarPopupTheme = global::MySquad.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarSize = global::MySquad.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarSplitStyle = global::MySquad.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarStyle = global::MySquad.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarTabBarStyle = global::MySquad.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarTabStyle = global::MySquad.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarTabTextStyle = global::MySquad.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarTheme = global::MySquad.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionBarWidgetTheme = global::MySquad.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionButtonStyle = global::MySquad.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionDropDownStyle = global::MySquad.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionLayout = global::MySquad.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionMenuTextAppearance = global::MySquad.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionMenuTextColor = global::MySquad.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeBackground = global::MySquad.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::MySquad.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeCloseDrawable = global::MySquad.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeCopyDrawable = global::MySquad.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeCutDrawable = global::MySquad.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeFindDrawable = global::MySquad.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModePasteDrawable = global::MySquad.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModePopupWindowStyle = global::MySquad.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::MySquad.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeShareDrawable = global::MySquad.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeSplitBackground = global::MySquad.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeStyle = global::MySquad.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::MySquad.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionOverflowButtonStyle = global::MySquad.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionOverflowMenuStyle = global::MySquad.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionProviderClass = global::MySquad.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.actionViewClass = global::MySquad.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.activityChooserViewStyle = global::MySquad.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::MySquad.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.alertDialogCenterButtons = global::MySquad.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.alertDialogStyle = global::MySquad.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.alertDialogTheme = global::MySquad.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.allowStacking = global::MySquad.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.alpha = global::MySquad.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.alphabeticModifiers = global::MySquad.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.arrowHeadLength = global::MySquad.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.arrowShaftLength = global::MySquad.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::MySquad.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.autoSizeMaxTextSize = global::MySquad.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.autoSizeMinTextSize = global::MySquad.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.autoSizePresetSizes = global::MySquad.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.autoSizeStepGranularity = global::MySquad.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.autoSizeTextType = global::MySquad.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.background = global::MySquad.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.backgroundSplit = global::MySquad.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.backgroundStacked = global::MySquad.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.backgroundTint = global::MySquad.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.backgroundTintMode = global::MySquad.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.barLength = global::MySquad.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.behavior_autoHide = global::MySquad.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.behavior_fitToContents = global::MySquad.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.behavior_hideable = global::MySquad.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.behavior_overlapTop = global::MySquad.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.behavior_peekHeight = global::MySquad.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.behavior_skipCollapsed = global::MySquad.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.borderWidth = global::MySquad.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.borderlessButtonStyle = global::MySquad.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.bottomAppBarStyle = global::MySquad.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.bottomNavigationStyle = global::MySquad.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.bottomSheetDialogTheme = global::MySquad.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.bottomSheetStyle = global::MySquad.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxBackgroundColor = global::MySquad.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxBackgroundMode = global::MySquad.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::MySquad.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::MySquad.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::MySquad.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::MySquad.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::MySquad.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxStrokeColor = global::MySquad.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.boxStrokeWidth = global::MySquad.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonBarButtonStyle = global::MySquad.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::MySquad.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::MySquad.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::MySquad.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonBarStyle = global::MySquad.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonGravity = global::MySquad.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonIconDimen = global::MySquad.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonPanelSideLayout = global::MySquad.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonStyle = global::MySquad.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonStyleSmall = global::MySquad.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonTint = global::MySquad.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.buttonTintMode = global::MySquad.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.cardBackgroundColor = global::MySquad.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.cardCornerRadius = global::MySquad.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.cardElevation = global::MySquad.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.cardMaxElevation = global::MySquad.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.cardPreventCornerOverlap = global::MySquad.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.cardUseCompatPadding = global::MySquad.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.cardViewStyle = global::MySquad.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.checkboxStyle = global::MySquad.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.checkedChip = global::MySquad.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.checkedIcon = global::MySquad.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.checkedIconEnabled = global::MySquad.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.checkedIconVisible = global::MySquad.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.checkedTextViewStyle = global::MySquad.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipBackgroundColor = global::MySquad.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipCornerRadius = global::MySquad.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipEndPadding = global::MySquad.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipGroupStyle = global::MySquad.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipIcon = global::MySquad.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipIconEnabled = global::MySquad.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipIconSize = global::MySquad.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipIconTint = global::MySquad.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipIconVisible = global::MySquad.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipMinHeight = global::MySquad.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipSpacing = global::MySquad.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipSpacingHorizontal = global::MySquad.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipSpacingVertical = global::MySquad.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipStandaloneStyle = global::MySquad.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipStartPadding = global::MySquad.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipStrokeColor = global::MySquad.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipStrokeWidth = global::MySquad.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.chipStyle = global::MySquad.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.closeIcon = global::MySquad.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.closeIconEnabled = global::MySquad.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.closeIconEndPadding = global::MySquad.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.closeIconSize = global::MySquad.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.closeIconStartPadding = global::MySquad.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.closeIconTint = global::MySquad.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.closeIconVisible = global::MySquad.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.closeItemLayout = global::MySquad.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.collapseContentDescription = global::MySquad.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.collapseIcon = global::MySquad.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.collapsedTitleGravity = global::MySquad.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::MySquad.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.color = global::MySquad.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorAccent = global::MySquad.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorBackgroundFloating = global::MySquad.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorButtonNormal = global::MySquad.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorControlActivated = global::MySquad.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorControlHighlight = global::MySquad.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorControlNormal = global::MySquad.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorError = global::MySquad.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorPrimary = global::MySquad.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorPrimaryDark = global::MySquad.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorSecondary = global::MySquad.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.colorSwitchThumbNormal = global::MySquad.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.commitIcon = global::MySquad.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentDescription = global::MySquad.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentInsetEnd = global::MySquad.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentInsetEndWithActions = global::MySquad.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentInsetLeft = global::MySquad.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentInsetRight = global::MySquad.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentInsetStart = global::MySquad.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::MySquad.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentPadding = global::MySquad.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentPaddingBottom = global::MySquad.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentPaddingLeft = global::MySquad.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentPaddingRight = global::MySquad.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentPaddingTop = global::MySquad.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.contentScrim = global::MySquad.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.controlBackground = global::MySquad.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.coordinatorLayoutStyle = global::MySquad.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.cornerRadius = global::MySquad.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.counterEnabled = global::MySquad.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.counterMaxLength = global::MySquad.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.counterOverflowTextAppearance = global::MySquad.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.counterTextAppearance = global::MySquad.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.customNavigationLayout = global::MySquad.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.defaultQueryHint = global::MySquad.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.dialogCornerRadius = global::MySquad.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.dialogPreferredPadding = global::MySquad.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.dialogTheme = global::MySquad.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.displayOptions = global::MySquad.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.divider = global::MySquad.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.dividerHorizontal = global::MySquad.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.dividerPadding = global::MySquad.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.dividerVertical = global::MySquad.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.drawableSize = global::MySquad.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.drawerArrowStyle = global::MySquad.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.dropDownListViewStyle = global::MySquad.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::MySquad.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.editTextBackground = global::MySquad.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.editTextColor = global::MySquad.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.editTextStyle = global::MySquad.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.elevation = global::MySquad.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.enforceMaterialTheme = global::MySquad.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.enforceTextAppearance = global::MySquad.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.errorEnabled = global::MySquad.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.errorTextAppearance = global::MySquad.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MySquad.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expanded = global::MySquad.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expandedTitleGravity = global::MySquad.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expandedTitleMargin = global::MySquad.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expandedTitleMarginBottom = global::MySquad.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expandedTitleMarginEnd = global::MySquad.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expandedTitleMarginStart = global::MySquad.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expandedTitleMarginTop = global::MySquad.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.expandedTitleTextAppearance = global::MySquad.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fabAlignmentMode = global::MySquad.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fabCradleMargin = global::MySquad.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::MySquad.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fabCradleVerticalOffset = global::MySquad.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fabCustomSize = global::MySquad.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fabSize = global::MySquad.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fastScrollEnabled = global::MySquad.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::MySquad.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::MySquad.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::MySquad.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::MySquad.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.firstBaselineToTopHeight = global::MySquad.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.floatingActionButtonStyle = global::MySquad.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.font = global::MySquad.Droid.Resource.Attribute.font;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontFamily = global::MySquad.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontProviderAuthority = global::MySquad.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontProviderCerts = global::MySquad.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontProviderFetchStrategy = global::MySquad.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontProviderFetchTimeout = global::MySquad.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontProviderPackage = global::MySquad.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontProviderQuery = global::MySquad.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontStyle = global::MySquad.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontVariationSettings = global::MySquad.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.fontWeight = global::MySquad.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.foregroundInsidePadding = global::MySquad.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.gapBetweenBars = global::MySquad.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.goIcon = global::MySquad.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.headerLayout = global::MySquad.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.height = global::MySquad.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.helperText = global::MySquad.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.helperTextEnabled = global::MySquad.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.helperTextTextAppearance = global::MySquad.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.hideMotionSpec = global::MySquad.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.hideOnContentScroll = global::MySquad.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.hideOnScroll = global::MySquad.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.hintAnimationEnabled = global::MySquad.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.hintEnabled = global::MySquad.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.hintTextAppearance = global::MySquad.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.homeAsUpIndicator = global::MySquad.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.homeLayout = global::MySquad.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::MySquad.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.icon = global::MySquad.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.iconEndPadding = global::MySquad.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.iconGravity = global::MySquad.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.iconPadding = global::MySquad.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.iconSize = global::MySquad.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.iconStartPadding = global::MySquad.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.iconTint = global::MySquad.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.iconTintMode = global::MySquad.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.iconifiedByDefault = global::MySquad.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.imageButtonStyle = global::MySquad.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.indeterminateProgressStyle = global::MySquad.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.initialActivityCount = global::MySquad.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.insetForeground = global::MySquad.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.isLightTheme = global::MySquad.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemBackground = global::MySquad.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemHorizontalPadding = global::MySquad.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::MySquad.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemIconPadding = global::MySquad.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemIconSize = global::MySquad.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemIconTint = global::MySquad.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemPadding = global::MySquad.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemSpacing = global::MySquad.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemTextAppearance = global::MySquad.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemTextAppearanceActive = global::MySquad.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemTextAppearanceInactive = global::MySquad.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.itemTextColor = global::MySquad.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.keylines = global::MySquad.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.labelVisibilityMode = global::MySquad.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::MySquad.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout = global::MySquad.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layoutManager = global::MySquad.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_anchor = global::MySquad.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_anchorGravity = global::MySquad.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_behavior = global::MySquad.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_collapseMode = global::MySquad.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::MySquad.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::MySquad.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_insetEdge = global::MySquad.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_keyline = global::MySquad.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_scrollFlags = global::MySquad.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.layout_scrollInterpolator = global::MySquad.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.liftOnScroll = global::MySquad.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.lineHeight = global::MySquad.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.lineSpacing = global::MySquad.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::MySquad.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listDividerAlertDialog = global::MySquad.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listItemLayout = global::MySquad.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listLayout = global::MySquad.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listMenuViewStyle = global::MySquad.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listPopupWindowStyle = global::MySquad.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listPreferredItemHeight = global::MySquad.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::MySquad.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::MySquad.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::MySquad.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::MySquad.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.logo = global::MySquad.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.logoDescription = global::MySquad.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.materialButtonStyle = global::MySquad.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.materialCardViewStyle = global::MySquad.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.maxActionInlineWidth = global::MySquad.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.maxButtonHeight = global::MySquad.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.maxImageSize = global::MySquad.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.measureWithLargestChild = global::MySquad.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.menu = global::MySquad.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.multiChoiceItemLayout = global::MySquad.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.navigationContentDescription = global::MySquad.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.navigationIcon = global::MySquad.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.navigationMode = global::MySquad.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.navigationViewStyle = global::MySquad.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.numericModifiers = global::MySquad.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.overlapAnchor = global::MySquad.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.paddingBottomNoButtons = global::MySquad.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.paddingEnd = global::MySquad.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.paddingStart = global::MySquad.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.paddingTopNoTitle = global::MySquad.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.panelBackground = global::MySquad.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.panelMenuListTheme = global::MySquad.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.panelMenuListWidth = global::MySquad.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.passwordToggleContentDescription = global::MySquad.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.passwordToggleDrawable = global::MySquad.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.passwordToggleEnabled = global::MySquad.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.passwordToggleTint = global::MySquad.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.passwordToggleTintMode = global::MySquad.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.popupMenuStyle = global::MySquad.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.popupTheme = global::MySquad.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.popupWindowStyle = global::MySquad.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.preserveIconSpacing = global::MySquad.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.pressedTranslationZ = global::MySquad.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.progressBarPadding = global::MySquad.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.progressBarStyle = global::MySquad.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.queryBackground = global::MySquad.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.queryHint = global::MySquad.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.radioButtonStyle = global::MySquad.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.ratingBarStyle = global::MySquad.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.ratingBarStyleIndicator = global::MySquad.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.ratingBarStyleSmall = global::MySquad.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.reverseLayout = global::MySquad.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.rippleColor = global::MySquad.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.scrimAnimationDuration = global::MySquad.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.scrimBackground = global::MySquad.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::MySquad.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.searchHintIcon = global::MySquad.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.searchIcon = global::MySquad.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.searchViewStyle = global::MySquad.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.seekBarStyle = global::MySquad.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.selectableItemBackground = global::MySquad.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::MySquad.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.showAsAction = global::MySquad.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.showDividers = global::MySquad.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.showMotionSpec = global::MySquad.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.showText = global::MySquad.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.showTitle = global::MySquad.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.singleChoiceItemLayout = global::MySquad.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.singleLine = global::MySquad.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.singleSelection = global::MySquad.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.snackbarButtonStyle = global::MySquad.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.snackbarStyle = global::MySquad.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.spanCount = global::MySquad.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.spinBars = global::MySquad.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::MySquad.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.spinnerStyle = global::MySquad.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.splitTrack = global::MySquad.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.srcCompat = global::MySquad.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.stackFromEnd = global::MySquad.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.state_above_anchor = global::MySquad.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.state_collapsed = global::MySquad.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.state_collapsible = global::MySquad.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.state_liftable = global::MySquad.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.state_lifted = global::MySquad.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.statusBarBackground = global::MySquad.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.statusBarScrim = global::MySquad.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.strokeColor = global::MySquad.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.strokeWidth = global::MySquad.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.subMenuArrow = global::MySquad.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.submitBackground = global::MySquad.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.subtitle = global::MySquad.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.subtitleTextAppearance = global::MySquad.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.subtitleTextColor = global::MySquad.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.subtitleTextStyle = global::MySquad.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.suggestionRowLayout = global::MySquad.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.switchMinWidth = global::MySquad.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.switchPadding = global::MySquad.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.switchStyle = global::MySquad.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.switchTextAppearance = global::MySquad.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabBackground = global::MySquad.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabContentStart = global::MySquad.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabGravity = global::MySquad.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabIconTint = global::MySquad.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabIconTintMode = global::MySquad.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabIndicator = global::MySquad.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::MySquad.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabIndicatorColor = global::MySquad.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabIndicatorFullWidth = global::MySquad.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabIndicatorGravity = global::MySquad.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabIndicatorHeight = global::MySquad.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabInlineLabel = global::MySquad.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabMaxWidth = global::MySquad.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabMinWidth = global::MySquad.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabMode = global::MySquad.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabPadding = global::MySquad.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabPaddingBottom = global::MySquad.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabPaddingEnd = global::MySquad.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabPaddingStart = global::MySquad.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabPaddingTop = global::MySquad.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabRippleColor = global::MySquad.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabSelectedTextColor = global::MySquad.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabStyle = global::MySquad.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabTextAppearance = global::MySquad.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabTextColor = global::MySquad.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tabUnboundedRipple = global::MySquad.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAllCaps = global::MySquad.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceBody1 = global::MySquad.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceBody2 = global::MySquad.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceButton = global::MySquad.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceCaption = global::MySquad.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceHeadline1 = global::MySquad.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceHeadline2 = global::MySquad.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceHeadline3 = global::MySquad.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceHeadline4 = global::MySquad.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceHeadline5 = global::MySquad.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceHeadline6 = global::MySquad.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::MySquad.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceListItem = global::MySquad.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::MySquad.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceListItemSmall = global::MySquad.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceOverline = global::MySquad.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::MySquad.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MySquad.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::MySquad.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::MySquad.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::MySquad.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::MySquad.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textColorAlertDialogListItem = global::MySquad.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textColorSearchUrl = global::MySquad.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textEndPadding = global::MySquad.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textInputStyle = global::MySquad.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.textStartPadding = global::MySquad.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.theme = global::MySquad.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.thickness = global::MySquad.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.thumbTextPadding = global::MySquad.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.thumbTint = global::MySquad.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.thumbTintMode = global::MySquad.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tickMark = global::MySquad.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tickMarkTint = global::MySquad.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tickMarkTintMode = global::MySquad.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tint = global::MySquad.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tintMode = global::MySquad.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.title = global::MySquad.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleEnabled = global::MySquad.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleMargin = global::MySquad.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleMarginBottom = global::MySquad.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleMarginEnd = global::MySquad.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleMarginStart = global::MySquad.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleMarginTop = global::MySquad.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleMargins = global::MySquad.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleTextAppearance = global::MySquad.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleTextColor = global::MySquad.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.titleTextStyle = global::MySquad.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.toolbarId = global::MySquad.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::MySquad.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.toolbarStyle = global::MySquad.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tooltipForegroundColor = global::MySquad.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tooltipFrameBackground = global::MySquad.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.tooltipText = global::MySquad.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.track = global::MySquad.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.trackTint = global::MySquad.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.trackTintMode = global::MySquad.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.ttcIndex = global::MySquad.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.useCompatPadding = global::MySquad.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.viewInflaterClass = global::MySquad.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.voiceIcon = global::MySquad.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowActionBar = global::MySquad.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowActionBarOverlay = global::MySquad.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowActionModeOverlay = global::MySquad.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowFixedHeightMajor = global::MySquad.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowFixedHeightMinor = global::MySquad.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowFixedWidthMajor = global::MySquad.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowFixedWidthMinor = global::MySquad.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowMinWidthMajor = global::MySquad.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowMinWidthMinor = global::MySquad.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Attribute.windowNoTitle = global::MySquad.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::MySquad.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::MySquad.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MySquad.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::MySquad.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MySquad.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::MySquad.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::MySquad.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_btn_colored_text_material = global::MySquad.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_color_highlight_material = global::MySquad.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_hint_foreground_material_dark = global::MySquad.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_hint_foreground_material_light = global::MySquad.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_input_method_navigation_guard = global::MySquad.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::MySquad.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::MySquad.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_primary_text_material_dark = global::MySquad.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_primary_text_material_light = global::MySquad.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_search_url_text = global::MySquad.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_search_url_text_normal = global::MySquad.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_search_url_text_pressed = global::MySquad.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_search_url_text_selected = global::MySquad.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_secondary_text_material_dark = global::MySquad.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_secondary_text_material_light = global::MySquad.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_tint_btn_checkable = global::MySquad.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_tint_default = global::MySquad.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_tint_edittext = global::MySquad.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_tint_seek_thumb = global::MySquad.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_tint_spinner = global::MySquad.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.abc_tint_switch_track = global::MySquad.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.accent_material_dark = global::MySquad.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.accent_material_light = global::MySquad.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.background_floating_material_dark = global::MySquad.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.background_floating_material_light = global::MySquad.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.background_material_dark = global::MySquad.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.background_material_light = global::MySquad.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::MySquad.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.bright_foreground_disabled_material_light = global::MySquad.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::MySquad.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.bright_foreground_inverse_material_light = global::MySquad.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.bright_foreground_material_dark = global::MySquad.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.bright_foreground_material_light = global::MySquad.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.browser_actions_bg_grey = global::MySquad.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.browser_actions_divider_color = global::MySquad.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.browser_actions_text_color = global::MySquad.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.browser_actions_title_color = global::MySquad.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.button_material_dark = global::MySquad.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.button_material_light = global::MySquad.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.cardview_dark_background = global::MySquad.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.cardview_light_background = global::MySquad.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.cardview_shadow_end_color = global::MySquad.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.cardview_shadow_start_color = global::MySquad.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::MySquad.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_default_color_primary = global::MySquad.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_default_color_primary_dark = global::MySquad.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_error = global::MySquad.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_fab_shadow_end_color = global::MySquad.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_fab_shadow_mid_color = global::MySquad.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_fab_shadow_start_color = global::MySquad.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::MySquad.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::MySquad.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::MySquad.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::MySquad.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_snackbar_background_color = global::MySquad.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.design_tint_password_toggle = global::MySquad.Droid.Resource.Color.design_tint_password_toggle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::MySquad.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.dim_foreground_disabled_material_light = global::MySquad.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.dim_foreground_material_dark = global::MySquad.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.dim_foreground_material_light = global::MySquad.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.error_color_material_dark = global::MySquad.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.error_color_material_light = global::MySquad.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.foreground_material_dark = global::MySquad.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.foreground_material_light = global::MySquad.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.highlighted_text_material_dark = global::MySquad.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.highlighted_text_material_light = global::MySquad.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_blue_grey_800 = global::MySquad.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_blue_grey_900 = global::MySquad.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_blue_grey_950 = global::MySquad.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_deep_teal_200 = global::MySquad.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_deep_teal_500 = global::MySquad.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_grey_100 = global::MySquad.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_grey_300 = global::MySquad.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_grey_50 = global::MySquad.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_grey_600 = global::MySquad.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_grey_800 = global::MySquad.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_grey_850 = global::MySquad.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.material_grey_900 = global::MySquad.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::MySquad.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::MySquad.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::MySquad.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::MySquad.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_btn_ripple_color = global::MySquad.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::MySquad.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::MySquad.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::MySquad.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_btn_text_color_selector = global::MySquad.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::MySquad.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_chip_background_color = global::MySquad.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::MySquad.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_chip_ripple_color = global::MySquad.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_chip_text_color = global::MySquad.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_fab_ripple_color = global::MySquad.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_scrim_color = global::MySquad.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::MySquad.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::MySquad.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::MySquad.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::MySquad.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_tabs_ripple_color = global::MySquad.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::MySquad.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::MySquad.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_textinput_disabled_color = global::MySquad.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::MySquad.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::MySquad.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.notification_action_color_filter = global::MySquad.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.notification_icon_bg_color = global::MySquad.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.notification_material_background_media_default_color = global::MySquad.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.primary_dark_material_dark = global::MySquad.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.primary_dark_material_light = global::MySquad.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.primary_material_dark = global::MySquad.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.primary_material_light = global::MySquad.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.primary_text_default_material_dark = global::MySquad.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.primary_text_default_material_light = global::MySquad.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.primary_text_disabled_material_dark = global::MySquad.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.primary_text_disabled_material_light = global::MySquad.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.ripple_material_dark = global::MySquad.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.ripple_material_light = global::MySquad.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.secondary_text_default_material_dark = global::MySquad.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.secondary_text_default_material_light = global::MySquad.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.secondary_text_disabled_material_dark = global::MySquad.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.secondary_text_disabled_material_light = global::MySquad.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::MySquad.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.switch_thumb_disabled_material_light = global::MySquad.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.switch_thumb_material_dark = global::MySquad.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.switch_thumb_material_light = global::MySquad.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.switch_thumb_normal_material_dark = global::MySquad.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.switch_thumb_normal_material_light = global::MySquad.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.tooltip_background_dark = global::MySquad.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Color.tooltip_background_light = global::MySquad.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MySquad.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::MySquad.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MySquad.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MySquad.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_button_min_height_material = global::MySquad.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_button_min_width_material = global::MySquad.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MySquad.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MySquad.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::MySquad.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::MySquad.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::MySquad.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::MySquad.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::MySquad.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MySquad.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::MySquad.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_control_corner_material = global::MySquad.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_control_inset_material = global::MySquad.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_control_padding_material = global::MySquad.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::MySquad.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::MySquad.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::MySquad.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::MySquad.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::MySquad.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MySquad.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MySquad.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_min_width_major = global::MySquad.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::MySquad.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_padding_material = global::MySquad.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::MySquad.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::MySquad.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::MySquad.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::MySquad.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::MySquad.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MySquad.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MySquad.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MySquad.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MySquad.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::MySquad.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_floating_window_z = global::MySquad.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MySquad.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_panel_menu_list_width = global::MySquad.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_progress_bar_height_material = global::MySquad.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_search_view_preferred_height = global::MySquad.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_search_view_preferred_width = global::MySquad.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::MySquad.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MySquad.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::MySquad.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_switch_padding = global::MySquad.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_body_1_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_body_2_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_button_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_caption_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_display_1_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_display_2_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_display_3_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_display_4_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_headline_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_large_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_medium_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_menu_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_small_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_subhead_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MySquad.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_title_material = global::MySquad.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::MySquad.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::MySquad.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::MySquad.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::MySquad.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.cardview_default_elevation = global::MySquad.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.cardview_default_radius = global::MySquad.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::MySquad.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::MySquad.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::MySquad.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::MySquad.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.compat_control_corner_material = global::MySquad.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::MySquad.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::MySquad.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_appbar_elevation = global::MySquad.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_height = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_margin = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::MySquad.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MySquad.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MySquad.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_fab_border_width = global::MySquad.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_fab_elevation = global::MySquad.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_fab_image_size = global::MySquad.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_fab_size_mini = global::MySquad.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_fab_size_normal = global::MySquad.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::MySquad.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::MySquad.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_navigation_elevation = global::MySquad.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_navigation_icon_padding = global::MySquad.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_navigation_icon_size = global::MySquad.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::MySquad.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::MySquad.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_navigation_max_width = global::MySquad.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_navigation_padding_bottom = global::MySquad.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::MySquad.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::MySquad.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::MySquad.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_elevation = global::MySquad.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MySquad.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_max_width = global::MySquad.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_min_width = global::MySquad.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::MySquad.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::MySquad.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MySquad.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_snackbar_text_size = global::MySquad.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_tab_max_width = global::MySquad.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::MySquad.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_tab_text_size = global::MySquad.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_tab_text_size_2line = global::MySquad.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::MySquad.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.disabled_alpha_material_dark = global::MySquad.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.disabled_alpha_material_light = global::MySquad.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.fastscroll_default_thickness = global::MySquad.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.fastscroll_margin = global::MySquad.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.fastscroll_minimum_range = global::MySquad.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.highlight_alpha_material_colored = global::MySquad.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.highlight_alpha_material_dark = global::MySquad.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.highlight_alpha_material_light = global::MySquad.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.hint_alpha_material_dark = global::MySquad.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.hint_alpha_material_light = global::MySquad.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::MySquad.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::MySquad.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MySquad.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MySquad.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MySquad.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::MySquad.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::MySquad.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::MySquad.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::MySquad.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::MySquad.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::MySquad.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::MySquad.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::MySquad.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::MySquad.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_elevation = global::MySquad.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_focused_z = global::MySquad.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::MySquad.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::MySquad.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::MySquad.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_inset = global::MySquad.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::MySquad.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::MySquad.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_padding_left = global::MySquad.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_padding_right = global::MySquad.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_padding_top = global::MySquad.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::MySquad.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::MySquad.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::MySquad.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::MySquad.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::MySquad.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_text_size = global::MySquad.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_btn_z = global::MySquad.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_card_elevation = global::MySquad.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_card_spacing = global::MySquad.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::MySquad.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_chip_text_size = global::MySquad.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_fab_elevation = global::MySquad.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::MySquad.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::MySquad.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_navigation_elevation = global::MySquad.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::MySquad.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::MySquad.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::MySquad.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_snackbar_margin = global::MySquad.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::MySquad.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::MySquad.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::MySquad.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::MySquad.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::MySquad.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::MySquad.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::MySquad.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::MySquad.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::MySquad.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_action_icon_size = global::MySquad.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_action_text_size = global::MySquad.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_big_circle_margin = global::MySquad.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_content_margin_start = global::MySquad.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_large_icon_height = global::MySquad.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_large_icon_width = global::MySquad.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_main_column_padding_top = global::MySquad.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_media_narrow_margin = global::MySquad.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_right_icon_size = global::MySquad.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_right_side_padding_top = global::MySquad.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_small_icon_background_padding = global::MySquad.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::MySquad.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_subtext_size = global::MySquad.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_top_pad = global::MySquad.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.notification_top_pad_large_text = global::MySquad.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.subtitle_corner_radius = global::MySquad.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.subtitle_outline_width = global::MySquad.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.subtitle_shadow_offset = global::MySquad.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.subtitle_shadow_radius = global::MySquad.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.tooltip_corner_radius = global::MySquad.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.tooltip_horizontal_padding = global::MySquad.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.tooltip_margin = global::MySquad.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::MySquad.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::MySquad.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.tooltip_vertical_padding = global::MySquad.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::MySquad.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Dimension.tooltip_y_offset_touch = global::MySquad.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::MySquad.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_borderless_material = global::MySquad.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_check_material = global::MySquad.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MySquad.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MySquad.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_colored_material = global::MySquad.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::MySquad.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_radio_material = global::MySquad.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MySquad.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MySquad.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MySquad.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MySquad.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::MySquad.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_cab_background_top_material = global::MySquad.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_control_background_material = global::MySquad.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_dialog_material_background = global::MySquad.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_edit_text_material = global::MySquad.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_ab_back_material = global::MySquad.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MySquad.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_clear_material = global::MySquad.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::MySquad.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MySquad.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::MySquad.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MySquad.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_search_api_material = global::MySquad.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::MySquad.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::MySquad.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::MySquad.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::MySquad.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::MySquad.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::MySquad.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::MySquad.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_item_background_holo_dark = global::MySquad.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_item_background_holo_light = global::MySquad.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_divider_material = global::MySquad.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_focused_holo = global::MySquad.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_longpressed_holo = global::MySquad.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::MySquad.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::MySquad.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MySquad.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MySquad.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MySquad.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MySquad.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::MySquad.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_list_selector_holo_light = global::MySquad.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MySquad.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::MySquad.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::MySquad.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ratingbar_material = global::MySquad.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_ratingbar_small_material = global::MySquad.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MySquad.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MySquad.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::MySquad.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::MySquad.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_seekbar_track_material = global::MySquad.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MySquad.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::MySquad.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_switch_thumb_material = global::MySquad.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_tab_indicator_material = global::MySquad.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_text_cursor_material = global::MySquad.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MySquad.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MySquad.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MySquad.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MySquad.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MySquad.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MySquad.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MySquad.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_textfield_search_material = global::MySquad.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.abc_vector_test = global::MySquad.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.avd_hide_password = global::MySquad.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.avd_hide_password_1 = global::MySquad.Droid.Resource.Drawable.avd_hide_password_1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.avd_hide_password_2 = global::MySquad.Droid.Resource.Drawable.avd_hide_password_2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.avd_hide_password_3 = global::MySquad.Droid.Resource.Drawable.avd_hide_password_3;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.avd_show_password = global::MySquad.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.avd_show_password_1 = global::MySquad.Droid.Resource.Drawable.avd_show_password_1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.avd_show_password_2 = global::MySquad.Droid.Resource.Drawable.avd_show_password_2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.avd_show_password_3 = global::MySquad.Droid.Resource.Drawable.avd_show_password_3;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::MySquad.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.design_fab_background = global::MySquad.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.design_ic_visibility = global::MySquad.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.design_ic_visibility_off = global::MySquad.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.design_password_eye = global::MySquad.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.design_snackbar_background = global::MySquad.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::MySquad.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::MySquad.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::MySquad.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.mtrl_snackbar_background = global::MySquad.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::MySquad.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.navigation_empty_icon = global::MySquad.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_action_background = global::MySquad.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_bg = global::MySquad.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_bg_low = global::MySquad.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_bg_low_normal = global::MySquad.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_bg_low_pressed = global::MySquad.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_bg_normal = global::MySquad.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_bg_normal_pressed = global::MySquad.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_icon_background = global::MySquad.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_template_icon_bg = global::MySquad.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_template_icon_low_bg = global::MySquad.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notification_tile_bg = global::MySquad.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::MySquad.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.tooltip_frame_dark = global::MySquad.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Drawable.tooltip_frame_light = global::MySquad.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.ALT = global::MySquad.Droid.Resource.Id.ALT;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.CTRL = global::MySquad.Droid.Resource.Id.CTRL;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.FUNCTION = global::MySquad.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.META = global::MySquad.Droid.Resource.Id.META;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.SHIFT = global::MySquad.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.SYM = global::MySquad.Droid.Resource.Id.SYM;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action0 = global::MySquad.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_bar = global::MySquad.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_bar_activity_content = global::MySquad.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_bar_container = global::MySquad.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_bar_root = global::MySquad.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_bar_spinner = global::MySquad.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_bar_subtitle = global::MySquad.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_bar_title = global::MySquad.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_container = global::MySquad.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_context_bar = global::MySquad.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_divider = global::MySquad.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_image = global::MySquad.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_menu_divider = global::MySquad.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_menu_presenter = global::MySquad.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_mode_bar = global::MySquad.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_mode_bar_stub = global::MySquad.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_mode_close_button = global::MySquad.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.action_text = global::MySquad.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.actions = global::MySquad.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.activity_chooser_view_content = global::MySquad.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.add = global::MySquad.Droid.Resource.Id.add;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.alertTitle = global::MySquad.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.all = global::MySquad.Droid.Resource.Id.all;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.always = global::MySquad.Droid.Resource.Id.always;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.async = global::MySquad.Droid.Resource.Id.async;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.auto = global::MySquad.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.beginning = global::MySquad.Droid.Resource.Id.beginning;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.blocking = global::MySquad.Droid.Resource.Id.blocking;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.bottom = global::MySquad.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.bottomtab_navarea = global::MySquad.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.bottomtab_tabbar = global::MySquad.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.browser_actions_header_text = global::MySquad.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.browser_actions_menu_item_icon = global::MySquad.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.browser_actions_menu_item_text = global::MySquad.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.browser_actions_menu_items = global::MySquad.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.browser_actions_menu_view = global::MySquad.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.buttonPanel = global::MySquad.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.cancel_action = global::MySquad.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.center = global::MySquad.Droid.Resource.Id.center;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.center_horizontal = global::MySquad.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.center_vertical = global::MySquad.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.checkbox = global::MySquad.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.chronometer = global::MySquad.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.clip_horizontal = global::MySquad.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.clip_vertical = global::MySquad.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.collapseActionView = global::MySquad.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.container = global::MySquad.Droid.Resource.Id.container;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.content = global::MySquad.Droid.Resource.Id.content;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.contentPanel = global::MySquad.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.coordinator = global::MySquad.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.custom = global::MySquad.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.customPanel = global::MySquad.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.decor_content_parent = global::MySquad.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.default_activity_button = global::MySquad.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.design_bottom_sheet = global::MySquad.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.design_menu_item_action_area = global::MySquad.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.design_menu_item_action_area_stub = global::MySquad.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.design_menu_item_text = global::MySquad.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.design_navigation_view = global::MySquad.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.disableHome = global::MySquad.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.edit_query = global::MySquad.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.end = global::MySquad.Droid.Resource.Id.end;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.end_padder = global::MySquad.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.enterAlways = global::MySquad.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.enterAlwaysCollapsed = global::MySquad.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.exitUntilCollapsed = global::MySquad.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.expand_activities_button = global::MySquad.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.expanded_menu = global::MySquad.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.fill = global::MySquad.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.fill_horizontal = global::MySquad.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.fill_vertical = global::MySquad.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.filled = global::MySquad.Droid.Resource.Id.filled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.@fixed = global::MySquad.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.flyoutcontent_appbar = global::MySquad.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.flyoutcontent_recycler = global::MySquad.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.forever = global::MySquad.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.ghost_view = global::MySquad.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.group_divider = global::MySquad.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.home = global::MySquad.Droid.Resource.Id.home;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.homeAsUp = global::MySquad.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.icon = global::MySquad.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.icon_group = global::MySquad.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.ifRoom = global::MySquad.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.image = global::MySquad.Droid.Resource.Id.image;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.info = global::MySquad.Droid.Resource.Id.info;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.italic = global::MySquad.Droid.Resource.Id.italic;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.item_touch_helper_previous_elevation = global::MySquad.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.labeled = global::MySquad.Droid.Resource.Id.labeled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.largeLabel = global::MySquad.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.left = global::MySquad.Droid.Resource.Id.left;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.line1 = global::MySquad.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.line3 = global::MySquad.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.listMode = global::MySquad.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.list_item = global::MySquad.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.main_appbar = global::MySquad.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.main_scrollview = global::MySquad.Droid.Resource.Id.main_scrollview;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.main_tablayout = global::MySquad.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.main_toolbar = global::MySquad.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.masked = global::MySquad.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.media_actions = global::MySquad.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.message = global::MySquad.Droid.Resource.Id.message;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.middle = global::MySquad.Droid.Resource.Id.middle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.mini = global::MySquad.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.mtrl_child_content_container = global::MySquad.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::MySquad.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.multiply = global::MySquad.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.navigation_header_container = global::MySquad.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.never = global::MySquad.Droid.Resource.Id.never;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.none = global::MySquad.Droid.Resource.Id.none;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.normal = global::MySquad.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.notification_background = global::MySquad.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.notification_main_column = global::MySquad.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.notification_main_column_container = global::MySquad.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.outline = global::MySquad.Droid.Resource.Id.outline;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.parallax = global::MySquad.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.parentPanel = global::MySquad.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.parent_matrix = global::MySquad.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.pin = global::MySquad.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.progress_circular = global::MySquad.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.progress_horizontal = global::MySquad.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.radio = global::MySquad.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.right = global::MySquad.Droid.Resource.Id.right;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.right_icon = global::MySquad.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.right_side = global::MySquad.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.save_image_matrix = global::MySquad.Droid.Resource.Id.save_image_matrix;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.save_non_transition_alpha = global::MySquad.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.save_scale_type = global::MySquad.Droid.Resource.Id.save_scale_type;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.screen = global::MySquad.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.scroll = global::MySquad.Droid.Resource.Id.scroll;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.scrollIndicatorDown = global::MySquad.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.scrollIndicatorUp = global::MySquad.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.scrollView = global::MySquad.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.scrollable = global::MySquad.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_badge = global::MySquad.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_bar = global::MySquad.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_button = global::MySquad.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_close_btn = global::MySquad.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_edit_frame = global::MySquad.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_go_btn = global::MySquad.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_mag_icon = global::MySquad.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_plate = global::MySquad.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_src_text = global::MySquad.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.search_voice_btn = global::MySquad.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.select_dialog_listview = global::MySquad.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.selected = global::MySquad.Droid.Resource.Id.selected;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.shellcontent_appbar = global::MySquad.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.shellcontent_scrollview = global::MySquad.Droid.Resource.Id.shellcontent_scrollview;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.shellcontent_toolbar = global::MySquad.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.shortcut = global::MySquad.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.showCustom = global::MySquad.Droid.Resource.Id.showCustom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.showHome = global::MySquad.Droid.Resource.Id.showHome;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.showTitle = global::MySquad.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.smallLabel = global::MySquad.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.snackbar_action = global::MySquad.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.snackbar_text = global::MySquad.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.snap = global::MySquad.Droid.Resource.Id.snap;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.snapMargins = global::MySquad.Droid.Resource.Id.snapMargins;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.spacer = global::MySquad.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.split_action_bar = global::MySquad.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.src_atop = global::MySquad.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.src_in = global::MySquad.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.src_over = global::MySquad.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.start = global::MySquad.Droid.Resource.Id.start;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.status_bar_latest_event_content = global::MySquad.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.stretch = global::MySquad.Droid.Resource.Id.stretch;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.submenuarrow = global::MySquad.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.submit_area = global::MySquad.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.tabMode = global::MySquad.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.tag_transition_group = global::MySquad.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.tag_unhandled_key_event_manager = global::MySquad.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.tag_unhandled_key_listeners = global::MySquad.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.text = global::MySquad.Droid.Resource.Id.text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.text2 = global::MySquad.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.textSpacerNoButtons = global::MySquad.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.textSpacerNoTitle = global::MySquad.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.textStart = global::MySquad.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.text_input_password_toggle = global::MySquad.Droid.Resource.Id.text_input_password_toggle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.textinput_counter = global::MySquad.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.textinput_error = global::MySquad.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.textinput_helper_text = global::MySquad.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.time = global::MySquad.Droid.Resource.Id.time;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.title = global::MySquad.Droid.Resource.Id.title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.titleDividerNoCustom = global::MySquad.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.title_template = global::MySquad.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.top = global::MySquad.Droid.Resource.Id.top;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.topPanel = global::MySquad.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.touch_outside = global::MySquad.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.transition_current_scene = global::MySquad.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.transition_layout_save = global::MySquad.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.transition_position = global::MySquad.Droid.Resource.Id.transition_position;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.transition_scene_layoutid_cache = global::MySquad.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.transition_transform = global::MySquad.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.uniform = global::MySquad.Droid.Resource.Id.uniform;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.unlabeled = global::MySquad.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.up = global::MySquad.Droid.Resource.Id.up;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.useLogo = global::MySquad.Droid.Resource.Id.useLogo;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.view_offset_helper = global::MySquad.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.visible = global::MySquad.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.withText = global::MySquad.Droid.Resource.Id.withText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Id.wrap_content = global::MySquad.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.abc_config_activityDefaultDur = global::MySquad.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.abc_config_activityShortDur = global::MySquad.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::MySquad.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.bottom_sheet_slide_duration = global::MySquad.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.cancel_button_image_alpha = global::MySquad.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.config_tooltipAnimTime = global::MySquad.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.design_snackbar_text_max_lines = global::MySquad.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::MySquad.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.hide_password_duration = global::MySquad.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::MySquad.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::MySquad.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.mtrl_chip_anim_duration = global::MySquad.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::MySquad.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.show_password_duration = global::MySquad.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::MySquad.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::MySquad.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::MySquad.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Interpolator.mtrl_linear = global::MySquad.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::MySquad.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_action_bar_title_item = global::MySquad.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_action_bar_up_container = global::MySquad.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_action_menu_item_layout = global::MySquad.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_action_menu_layout = global::MySquad.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_action_mode_bar = global::MySquad.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_action_mode_close_item_material = global::MySquad.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_activity_chooser_view = global::MySquad.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::MySquad.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::MySquad.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_alert_dialog_material = global::MySquad.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_alert_dialog_title_material = global::MySquad.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::MySquad.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_dialog_title_material = global::MySquad.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_expanded_menu_layout = global::MySquad.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::MySquad.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_list_menu_item_icon = global::MySquad.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_list_menu_item_layout = global::MySquad.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_list_menu_item_radio = global::MySquad.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::MySquad.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_popup_menu_item_layout = global::MySquad.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_screen_content_include = global::MySquad.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_screen_simple = global::MySquad.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MySquad.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_screen_toolbar = global::MySquad.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MySquad.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_search_view = global::MySquad.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_select_dialog_material = global::MySquad.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.abc_tooltip = global::MySquad.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.BottomTabLayout = global::MySquad.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.browser_actions_context_menu_page = global::MySquad.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.browser_actions_context_menu_row = global::MySquad.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_bottom_navigation_item = global::MySquad.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_bottom_sheet_dialog = global::MySquad.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_layout_snackbar = global::MySquad.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_layout_snackbar_include = global::MySquad.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_layout_tab_icon = global::MySquad.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_layout_tab_text = global::MySquad.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_menu_item_action_area = global::MySquad.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_navigation_item = global::MySquad.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_navigation_item_header = global::MySquad.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_navigation_item_separator = global::MySquad.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_navigation_item_subheader = global::MySquad.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_navigation_menu = global::MySquad.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_navigation_menu_item = global::MySquad.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.design_text_input_password_icon = global::MySquad.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.FlyoutContent = global::MySquad.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.mtrl_layout_snackbar = global::MySquad.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::MySquad.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_action = global::MySquad.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_action_tombstone = global::MySquad.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_media_action = global::MySquad.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_media_cancel_action = global::MySquad.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_big_media = global::MySquad.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_big_media_custom = global::MySquad.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_big_media_narrow = global::MySquad.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::MySquad.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_custom_big = global::MySquad.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_icon_group = global::MySquad.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_lines_media = global::MySquad.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_media = global::MySquad.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_media_custom = global::MySquad.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_part_chronometer = global::MySquad.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.notification_template_part_time = global::MySquad.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.RootLayout = global::MySquad.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.select_dialog_item_material = global::MySquad.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.select_dialog_multichoice_material = global::MySquad.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.select_dialog_singlechoice_material = global::MySquad.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.ShellContent = global::MySquad.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::MySquad.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_action_bar_home_description = global::MySquad.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_action_bar_up_description = global::MySquad.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_action_menu_overflow_description = global::MySquad.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_action_mode_done = global::MySquad.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_activity_chooser_view_see_all = global::MySquad.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_activitychooserview_choose_application = global::MySquad.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_capital_off = global::MySquad.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_capital_on = global::MySquad.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_body_1_material = global::MySquad.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_body_2_material = global::MySquad.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_button_material = global::MySquad.Droid.Resource.String.abc_font_family_button_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_caption_material = global::MySquad.Droid.Resource.String.abc_font_family_caption_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_display_1_material = global::MySquad.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_display_2_material = global::MySquad.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_display_3_material = global::MySquad.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_display_4_material = global::MySquad.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_headline_material = global::MySquad.Droid.Resource.String.abc_font_family_headline_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_menu_material = global::MySquad.Droid.Resource.String.abc_font_family_menu_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_subhead_material = global::MySquad.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_font_family_title_material = global::MySquad.Droid.Resource.String.abc_font_family_title_material;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_alt_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_delete_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_enter_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_function_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_meta_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_shift_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_space_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_menu_sym_shortcut_label = global::MySquad.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_prepend_shortcut_label = global::MySquad.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_search_hint = global::MySquad.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_searchview_description_clear = global::MySquad.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_searchview_description_query = global::MySquad.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_searchview_description_search = global::MySquad.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_searchview_description_submit = global::MySquad.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_searchview_description_voice = global::MySquad.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_shareactionprovider_share_with = global::MySquad.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::MySquad.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.abc_toolbar_collapse_description = global::MySquad.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.app_name = global::MySquad.Droid.Resource.String.app_name;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.appbar_scrolling_view_behavior = global::MySquad.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.bottom_sheet_behavior = global::MySquad.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.character_counter_content_description = global::MySquad.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.character_counter_pattern = global::MySquad.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.fab_transformation_scrim_behavior = global::MySquad.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.fab_transformation_sheet_behavior = global::MySquad.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.hello = global::MySquad.Droid.Resource.String.hello;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::MySquad.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::MySquad.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.password_toggle_content_description = global::MySquad.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.path_password_eye = global::MySquad.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.path_password_eye_mask_strike_through = global::MySquad.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.path_password_eye_mask_visible = global::MySquad.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.path_password_strike_through = global::MySquad.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.search_menu_title = global::MySquad.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.String.status_bar_notification_info_overflow = global::MySquad.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.AlertDialog_AppCompat = global::MySquad.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::MySquad.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Animation_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::MySquad.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::MySquad.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::MySquad.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::MySquad.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MySquad.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::MySquad.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_CardView = global::MySquad.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MySquad.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MySquad.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MySquad.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MySquad.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MySquad.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MySquad.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MySquad.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::MySquad.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::MySquad.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::MySquad.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::MySquad.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::MySquad.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MySquad.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::MySquad.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::MySquad.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MySquad.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::MySquad.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MySquad.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::MySquad.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::MySquad.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::MySquad.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::MySquad.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::MySquad.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::MySquad.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MySquad.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MySquad.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MySquad.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MySquad.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::MySquad.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MySquad.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::MySquad.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::MySquad.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::MySquad.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::MySquad.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.CardView = global::MySquad.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.CardView_Dark = global::MySquad.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.CardView_Light = global::MySquad.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_AppCompat = global::MySquad.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_AppCompat_Light = global::MySquad.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_MaterialComponents = global::MySquad.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::MySquad.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_MaterialComponents_Light = global::MySquad.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::MySquad.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MySquad.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MySquad.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MySquad.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_V21_AppCompat = global::MySquad.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::MySquad.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_V25_AppCompat = global::MySquad.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::MySquad.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MySquad.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MySquad.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MySquad.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MySquad.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MySquad.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MySquad.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::MySquad.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MySquad.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Design_Counter = global::MySquad.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MySquad.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Design_Error = global::MySquad.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Design_HelperText = global::MySquad.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Design_Hint = global::MySquad.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MySquad.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Design_Tab = global::MySquad.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::MySquad.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MySquad.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MySquad.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MySquad.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat = global::MySquad.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::MySquad.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_DayNight = global::MySquad.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MySquad.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MySquad.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MySquad.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MySquad.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Light = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MySquad.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::MySquad.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_Design = global::MySquad.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::MySquad.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_Design_Light = global::MySquad.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MySquad.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::MySquad.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_Design_NoActionBar = global::MySquad.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::MySquad.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_AppCompat = global::MySquad.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MySquad.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MySquad.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MySquad.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MySquad.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MySquad.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::MySquad.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MySquad.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Button = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MySquad.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MySquad.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MySquad.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MySquad.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MySquad.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_EditText = global::MySquad.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ListView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::MySquad.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MySquad.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::MySquad.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MySquad.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MySquad.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MySquad.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_SearchView = global::MySquad.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MySquad.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Spinner = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MySquad.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MySquad.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::MySquad.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::MySquad.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_AppBarLayout = global::MySquad.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::MySquad.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::MySquad.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::MySquad.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::MySquad.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_NavigationView = global::MySquad.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MySquad.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_Snackbar = global::MySquad.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_TabLayout = global::MySquad.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Design_TextInputLayout = global::MySquad.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::MySquad.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::MySquad.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar = global::MySquad.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_background = global::MySquad.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::MySquad.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::MySquad.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::MySquad.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MySquad.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::MySquad.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::MySquad.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::MySquad.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MySquad.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::MySquad.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_displayOptions = global::MySquad.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_divider = global::MySquad.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_elevation = global::MySquad.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_height = global::MySquad.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::MySquad.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MySquad.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_homeLayout = global::MySquad.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_icon = global::MySquad.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MySquad.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_itemPadding = global::MySquad.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_logo = global::MySquad.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_navigationMode = global::MySquad.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_popupTheme = global::MySquad.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::MySquad.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::MySquad.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_subtitle = global::MySquad.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::MySquad.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_title = global::MySquad.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::MySquad.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBarLayout = global::MySquad.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MySquad.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMenuItemView = global::MySquad.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MySquad.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMenuView = global::MySquad.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMode = global::MySquad.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMode_background = global::MySquad.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::MySquad.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::MySquad.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMode_height = global::MySquad.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::MySquad.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::MySquad.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActivityChooserView = global::MySquad.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MySquad.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MySquad.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog = global::MySquad.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog_android_layout = global::MySquad.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::MySquad.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MySquad.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::MySquad.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog_listLayout = global::MySquad.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MySquad.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog_showTitle = global::MySquad.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MySquad.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::MySquad.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout = global::MySquad.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_android_background = global::MySquad.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::MySquad.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::MySquad.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_elevation = global::MySquad.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_expanded = global::MySquad.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::MySquad.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayoutStates = global::MySquad.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MySquad.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MySquad.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::MySquad.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::MySquad.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_Layout = global::MySquad.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MySquad.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MySquad.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatImageView = global::MySquad.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatImageView_android_src = global::MySquad.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::MySquad.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatImageView_tint = global::MySquad.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::MySquad.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatSeekBar = global::MySquad.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MySquad.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::MySquad.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MySquad.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MySquad.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextHelper = global::MySquad.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MySquad.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MySquad.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MySquad.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MySquad.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MySquad.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MySquad.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MySquad.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView = global::MySquad.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::MySquad.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme = global::MySquad.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorError = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MySquad.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomAppBar = global::MySquad.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::MySquad.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::MySquad.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::MySquad.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::MySquad.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::MySquad.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::MySquad.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView = global::MySquad.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_elevation = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomNavigationView_menu = global::MySquad.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::MySquad.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::MySquad.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MySquad.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MySquad.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MySquad.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ButtonBarLayout = global::MySquad.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::MySquad.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView = global::MySquad.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_android_minHeight = global::MySquad.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_android_minWidth = global::MySquad.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::MySquad.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_cardCornerRadius = global::MySquad.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_cardElevation = global::MySquad.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_cardMaxElevation = global::MySquad.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MySquad.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::MySquad.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_contentPadding = global::MySquad.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::MySquad.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::MySquad.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_contentPaddingRight = global::MySquad.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CardView_contentPaddingTop = global::MySquad.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip = global::MySquad.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_android_checkable = global::MySquad.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_android_ellipsize = global::MySquad.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_android_maxWidth = global::MySquad.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_android_text = global::MySquad.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_android_textAppearance = global::MySquad.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_checkedIcon = global::MySquad.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::MySquad.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_checkedIconVisible = global::MySquad.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::MySquad.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipCornerRadius = global::MySquad.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipEndPadding = global::MySquad.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipIcon = global::MySquad.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipIconEnabled = global::MySquad.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipIconSize = global::MySquad.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipIconTint = global::MySquad.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipIconVisible = global::MySquad.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipMinHeight = global::MySquad.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipStartPadding = global::MySquad.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipStrokeColor = global::MySquad.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::MySquad.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_closeIcon = global::MySquad.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_closeIconEnabled = global::MySquad.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::MySquad.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_closeIconSize = global::MySquad.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::MySquad.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_closeIconTint = global::MySquad.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_closeIconVisible = global::MySquad.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_hideMotionSpec = global::MySquad.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_iconEndPadding = global::MySquad.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_iconStartPadding = global::MySquad.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_rippleColor = global::MySquad.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_showMotionSpec = global::MySquad.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_textEndPadding = global::MySquad.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Chip_textStartPadding = global::MySquad.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ChipGroup = global::MySquad.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ChipGroup_checkedChip = global::MySquad.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::MySquad.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::MySquad.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::MySquad.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ChipGroup_singleLine = global::MySquad.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ChipGroup_singleSelection = global::MySquad.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MySquad.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ColorStateListItem = global::MySquad.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ColorStateListItem_alpha = global::MySquad.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::MySquad.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ColorStateListItem_android_color = global::MySquad.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CompoundButton = global::MySquad.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CompoundButton_android_button = global::MySquad.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CompoundButton_buttonTint = global::MySquad.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::MySquad.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MySquad.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DesignTheme = global::MySquad.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MySquad.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MySquad.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle_color = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::MySquad.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton = global::MySquad.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_elevation = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MySquad.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FlowLayout = global::MySquad.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::MySquad.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::MySquad.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamily = global::MySquad.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::MySquad.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::MySquad.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MySquad.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MySquad.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::MySquad.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::MySquad.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont = global::MySquad.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_android_font = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_font = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::MySquad.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ForegroundLinearLayout = global::MySquad.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MySquad.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MySquad.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MySquad.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor = global::MySquad.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_centerColor = global::MySquad.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_centerX = global::MySquad.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_centerY = global::MySquad.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_endColor = global::MySquad.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_endX = global::MySquad.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_endY = global::MySquad.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::MySquad.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_startColor = global::MySquad.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_startX = global::MySquad.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_startY = global::MySquad.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_tileMode = global::MySquad.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColor_android_type = global::MySquad.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColorItem = global::MySquad.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColorItem_android_color = global::MySquad.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.GradientColorItem_android_offset = global::MySquad.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MySquad.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ListPopupWindow = global::MySquad.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MySquad.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MySquad.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton = global::MySquad.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::MySquad.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::MySquad.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::MySquad.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::MySquad.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::MySquad.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::MySquad.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::MySquad.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_icon = global::MySquad.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_iconGravity = global::MySquad.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_iconPadding = global::MySquad.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_iconSize = global::MySquad.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_iconTint = global::MySquad.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::MySquad.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_rippleColor = global::MySquad.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_strokeColor = global::MySquad.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::MySquad.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialCardView = global::MySquad.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::MySquad.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::MySquad.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::MySquad.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuGroup = global::MySquad.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MySquad.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuGroup_android_enabled = global::MySquad.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuGroup_android_id = global::MySquad.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::MySquad.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::MySquad.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuGroup_android_visible = global::MySquad.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem = global::MySquad.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_actionLayout = global::MySquad.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::MySquad.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_actionViewClass = global::MySquad.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::MySquad.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MySquad.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_checkable = global::MySquad.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_checked = global::MySquad.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_enabled = global::MySquad.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_icon = global::MySquad.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_id = global::MySquad.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::MySquad.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::MySquad.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_onClick = global::MySquad.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::MySquad.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_title = global::MySquad.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::MySquad.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_android_visible = global::MySquad.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_contentDescription = global::MySquad.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_iconTint = global::MySquad.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_iconTintMode = global::MySquad.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_numericModifiers = global::MySquad.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_showAsAction = global::MySquad.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuItem_tooltipText = global::MySquad.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView = global::MySquad.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_android_headerBackground = global::MySquad.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::MySquad.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_android_itemBackground = global::MySquad.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MySquad.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::MySquad.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::MySquad.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MySquad.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::MySquad.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.MenuView_subMenuArrow = global::MySquad.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView = global::MySquad.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_android_background = global::MySquad.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MySquad.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::MySquad.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_elevation = global::MySquad.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_headerLayout = global::MySquad.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_itemBackground = global::MySquad.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::MySquad.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::MySquad.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_itemIconTint = global::MySquad.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::MySquad.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_itemTextColor = global::MySquad.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.NavigationView_menu = global::MySquad.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.PopupWindow = global::MySquad.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MySquad.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::MySquad.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::MySquad.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.PopupWindowBackgroundState = global::MySquad.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MySquad.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecycleListView = global::MySquad.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MySquad.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MySquad.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView = global::MySquad.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MySquad.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_android_orientation = global::MySquad.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::MySquad.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::MySquad.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::MySquad.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::MySquad.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::MySquad.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_layoutManager = global::MySquad.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::MySquad.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_spanCount = global::MySquad.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::MySquad.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::MySquad.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MySquad.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::MySquad.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MySquad.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView = global::MySquad.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_android_focusable = global::MySquad.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_android_imeOptions = global::MySquad.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_android_inputType = global::MySquad.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_android_maxWidth = global::MySquad.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_closeIcon = global::MySquad.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_commitIcon = global::MySquad.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::MySquad.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_goIcon = global::MySquad.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::MySquad.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_layout = global::MySquad.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_queryBackground = global::MySquad.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_queryHint = global::MySquad.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_searchHintIcon = global::MySquad.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_searchIcon = global::MySquad.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_submitBackground = global::MySquad.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::MySquad.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SearchView_voiceIcon = global::MySquad.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Snackbar = global::MySquad.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::MySquad.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::MySquad.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SnackbarLayout = global::MySquad.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MySquad.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SnackbarLayout_elevation = global::MySquad.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MySquad.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Spinner = global::MySquad.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::MySquad.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Spinner_android_entries = global::MySquad.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Spinner_android_popupBackground = global::MySquad.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Spinner_android_prompt = global::MySquad.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Spinner_popupTheme = global::MySquad.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawable = global::MySquad.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::MySquad.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawable_android_dither = global::MySquad.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::MySquad.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::MySquad.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::MySquad.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawable_android_visible = global::MySquad.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawableItem = global::MySquad.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::MySquad.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat = global::MySquad.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::MySquad.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::MySquad.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::MySquad.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_showText = global::MySquad.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::MySquad.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::MySquad.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::MySquad.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MySquad.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MySquad.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::MySquad.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::MySquad.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_track = global::MySquad.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_trackTint = global::MySquad.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::MySquad.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabItem = global::MySquad.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabItem_android_icon = global::MySquad.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabItem_android_layout = global::MySquad.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabItem_android_text = global::MySquad.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout = global::MySquad.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabBackground = global::MySquad.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabContentStart = global::MySquad.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabGravity = global::MySquad.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabIconTint = global::MySquad.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::MySquad.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabIndicator = global::MySquad.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::MySquad.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::MySquad.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::MySquad.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::MySquad.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MySquad.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::MySquad.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::MySquad.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::MySquad.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabMode = global::MySquad.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabPadding = global::MySquad.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::MySquad.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::MySquad.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::MySquad.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::MySquad.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::MySquad.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MySquad.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::MySquad.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabTextColor = global::MySquad.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::MySquad.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance = global::MySquad.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_textColor = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_textSize = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_android_typeface = global::MySquad.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_fontFamily = global::MySquad.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::MySquad.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout = global::MySquad.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_android_hint = global::MySquad.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::MySquad.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::MySquad.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::MySquad.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::MySquad.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MySquad.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MySquad.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::MySquad.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MySquad.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_helperText = global::MySquad.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::MySquad.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::MySquad.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MySquad.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::MySquad.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MySquad.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MySquad.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MySquad.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MySquad.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MySquad.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MySquad.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ThemeEnforcement = global::MySquad.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::MySquad.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::MySquad.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::MySquad.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar = global::MySquad.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_android_gravity = global::MySquad.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_android_minHeight = global::MySquad.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_buttonGravity = global::MySquad.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::MySquad.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_collapseIcon = global::MySquad.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::MySquad.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MySquad.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::MySquad.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::MySquad.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::MySquad.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MySquad.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_logo = global::MySquad.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_logoDescription = global::MySquad.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::MySquad.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::MySquad.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_navigationIcon = global::MySquad.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_popupTheme = global::MySquad.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_subtitle = global::MySquad.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MySquad.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::MySquad.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_title = global::MySquad.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_titleMargin = global::MySquad.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::MySquad.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::MySquad.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::MySquad.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::MySquad.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_titleMargins = global::MySquad.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::MySquad.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.Toolbar_titleTextColor = global::MySquad.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.View = global::MySquad.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.View_android_focusable = global::MySquad.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.View_android_theme = global::MySquad.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.View_paddingEnd = global::MySquad.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.View_paddingStart = global::MySquad.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.View_theme = global::MySquad.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ViewBackgroundHelper = global::MySquad.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::MySquad.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MySquad.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MySquad.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ViewStubCompat = global::MySquad.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ViewStubCompat_android_id = global::MySquad.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MySquad.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.DragNDrop.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::MySquad.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::MySquad.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::MySquad.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::MySquad.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -4829,686 +7412,686 @@ namespace MySquad.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f09001a
-			public const int abc_action_bar_content_inset_material = 2131296282;
+			// aapt resource value: 0x7f0a001a
+			public const int abc_action_bar_content_inset_material = 2131361818;
 			
-			// aapt resource value: 0x7f09001b
-			public const int abc_action_bar_content_inset_with_nav = 2131296283;
+			// aapt resource value: 0x7f0a001b
+			public const int abc_action_bar_content_inset_with_nav = 2131361819;
 			
-			// aapt resource value: 0x7f090010
-			public const int abc_action_bar_default_height_material = 2131296272;
+			// aapt resource value: 0x7f0a0010
+			public const int abc_action_bar_default_height_material = 2131361808;
 			
-			// aapt resource value: 0x7f09001c
-			public const int abc_action_bar_default_padding_end_material = 2131296284;
+			// aapt resource value: 0x7f0a001c
+			public const int abc_action_bar_default_padding_end_material = 2131361820;
 			
-			// aapt resource value: 0x7f09001d
-			public const int abc_action_bar_default_padding_start_material = 2131296285;
+			// aapt resource value: 0x7f0a001d
+			public const int abc_action_bar_default_padding_start_material = 2131361821;
 			
-			// aapt resource value: 0x7f09001f
-			public const int abc_action_bar_elevation_material = 2131296287;
+			// aapt resource value: 0x7f0a001f
+			public const int abc_action_bar_elevation_material = 2131361823;
 			
-			// aapt resource value: 0x7f090020
-			public const int abc_action_bar_icon_vertical_padding_material = 2131296288;
+			// aapt resource value: 0x7f0a0020
+			public const int abc_action_bar_icon_vertical_padding_material = 2131361824;
 			
-			// aapt resource value: 0x7f090021
-			public const int abc_action_bar_overflow_padding_end_material = 2131296289;
+			// aapt resource value: 0x7f0a0021
+			public const int abc_action_bar_overflow_padding_end_material = 2131361825;
 			
-			// aapt resource value: 0x7f090022
-			public const int abc_action_bar_overflow_padding_start_material = 2131296290;
+			// aapt resource value: 0x7f0a0022
+			public const int abc_action_bar_overflow_padding_start_material = 2131361826;
 			
-			// aapt resource value: 0x7f090023
-			public const int abc_action_bar_stacked_max_height = 2131296291;
+			// aapt resource value: 0x7f0a0023
+			public const int abc_action_bar_stacked_max_height = 2131361827;
 			
-			// aapt resource value: 0x7f090024
-			public const int abc_action_bar_stacked_tab_max_width = 2131296292;
+			// aapt resource value: 0x7f0a0024
+			public const int abc_action_bar_stacked_tab_max_width = 2131361828;
 			
-			// aapt resource value: 0x7f090025
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131296293;
+			// aapt resource value: 0x7f0a0025
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131361829;
 			
-			// aapt resource value: 0x7f090026
-			public const int abc_action_bar_subtitle_top_margin_material = 2131296294;
+			// aapt resource value: 0x7f0a0026
+			public const int abc_action_bar_subtitle_top_margin_material = 2131361830;
 			
-			// aapt resource value: 0x7f090027
-			public const int abc_action_button_min_height_material = 2131296295;
+			// aapt resource value: 0x7f0a0027
+			public const int abc_action_button_min_height_material = 2131361831;
 			
-			// aapt resource value: 0x7f090028
-			public const int abc_action_button_min_width_material = 2131296296;
+			// aapt resource value: 0x7f0a0028
+			public const int abc_action_button_min_width_material = 2131361832;
 			
-			// aapt resource value: 0x7f090029
-			public const int abc_action_button_min_width_overflow_material = 2131296297;
+			// aapt resource value: 0x7f0a0029
+			public const int abc_action_button_min_width_overflow_material = 2131361833;
 			
-			// aapt resource value: 0x7f09000f
-			public const int abc_alert_dialog_button_bar_height = 2131296271;
+			// aapt resource value: 0x7f0a000f
+			public const int abc_alert_dialog_button_bar_height = 2131361807;
 			
-			// aapt resource value: 0x7f09002a
-			public const int abc_alert_dialog_button_dimen = 2131296298;
+			// aapt resource value: 0x7f0a002a
+			public const int abc_alert_dialog_button_dimen = 2131361834;
 			
-			// aapt resource value: 0x7f09002b
-			public const int abc_button_inset_horizontal_material = 2131296299;
+			// aapt resource value: 0x7f0a002b
+			public const int abc_button_inset_horizontal_material = 2131361835;
 			
-			// aapt resource value: 0x7f09002c
-			public const int abc_button_inset_vertical_material = 2131296300;
+			// aapt resource value: 0x7f0a002c
+			public const int abc_button_inset_vertical_material = 2131361836;
 			
-			// aapt resource value: 0x7f09002d
-			public const int abc_button_padding_horizontal_material = 2131296301;
+			// aapt resource value: 0x7f0a002d
+			public const int abc_button_padding_horizontal_material = 2131361837;
 			
-			// aapt resource value: 0x7f09002e
-			public const int abc_button_padding_vertical_material = 2131296302;
+			// aapt resource value: 0x7f0a002e
+			public const int abc_button_padding_vertical_material = 2131361838;
 			
-			// aapt resource value: 0x7f09002f
-			public const int abc_cascading_menus_min_smallest_width = 2131296303;
+			// aapt resource value: 0x7f0a002f
+			public const int abc_cascading_menus_min_smallest_width = 2131361839;
 			
-			// aapt resource value: 0x7f090013
-			public const int abc_config_prefDialogWidth = 2131296275;
+			// aapt resource value: 0x7f0a0013
+			public const int abc_config_prefDialogWidth = 2131361811;
 			
-			// aapt resource value: 0x7f090030
-			public const int abc_control_corner_material = 2131296304;
+			// aapt resource value: 0x7f0a0030
+			public const int abc_control_corner_material = 2131361840;
 			
-			// aapt resource value: 0x7f090031
-			public const int abc_control_inset_material = 2131296305;
+			// aapt resource value: 0x7f0a0031
+			public const int abc_control_inset_material = 2131361841;
 			
-			// aapt resource value: 0x7f090032
-			public const int abc_control_padding_material = 2131296306;
+			// aapt resource value: 0x7f0a0032
+			public const int abc_control_padding_material = 2131361842;
 			
-			// aapt resource value: 0x7f090033
-			public const int abc_dialog_corner_radius_material = 2131296307;
+			// aapt resource value: 0x7f0a0033
+			public const int abc_dialog_corner_radius_material = 2131361843;
 			
-			// aapt resource value: 0x7f090014
-			public const int abc_dialog_fixed_height_major = 2131296276;
+			// aapt resource value: 0x7f0a0014
+			public const int abc_dialog_fixed_height_major = 2131361812;
 			
-			// aapt resource value: 0x7f090015
-			public const int abc_dialog_fixed_height_minor = 2131296277;
+			// aapt resource value: 0x7f0a0015
+			public const int abc_dialog_fixed_height_minor = 2131361813;
 			
-			// aapt resource value: 0x7f090016
-			public const int abc_dialog_fixed_width_major = 2131296278;
+			// aapt resource value: 0x7f0a0016
+			public const int abc_dialog_fixed_width_major = 2131361814;
 			
-			// aapt resource value: 0x7f090017
-			public const int abc_dialog_fixed_width_minor = 2131296279;
+			// aapt resource value: 0x7f0a0017
+			public const int abc_dialog_fixed_width_minor = 2131361815;
 			
-			// aapt resource value: 0x7f090034
-			public const int abc_dialog_list_padding_bottom_no_buttons = 2131296308;
+			// aapt resource value: 0x7f0a0034
+			public const int abc_dialog_list_padding_bottom_no_buttons = 2131361844;
 			
-			// aapt resource value: 0x7f090035
-			public const int abc_dialog_list_padding_top_no_title = 2131296309;
+			// aapt resource value: 0x7f0a0035
+			public const int abc_dialog_list_padding_top_no_title = 2131361845;
 			
-			// aapt resource value: 0x7f090018
-			public const int abc_dialog_min_width_major = 2131296280;
+			// aapt resource value: 0x7f0a0018
+			public const int abc_dialog_min_width_major = 2131361816;
 			
-			// aapt resource value: 0x7f090019
-			public const int abc_dialog_min_width_minor = 2131296281;
+			// aapt resource value: 0x7f0a0019
+			public const int abc_dialog_min_width_minor = 2131361817;
 			
-			// aapt resource value: 0x7f090036
-			public const int abc_dialog_padding_material = 2131296310;
+			// aapt resource value: 0x7f0a0036
+			public const int abc_dialog_padding_material = 2131361846;
 			
-			// aapt resource value: 0x7f090037
-			public const int abc_dialog_padding_top_material = 2131296311;
+			// aapt resource value: 0x7f0a0037
+			public const int abc_dialog_padding_top_material = 2131361847;
 			
-			// aapt resource value: 0x7f090038
-			public const int abc_dialog_title_divider_material = 2131296312;
+			// aapt resource value: 0x7f0a0038
+			public const int abc_dialog_title_divider_material = 2131361848;
 			
-			// aapt resource value: 0x7f090039
-			public const int abc_disabled_alpha_material_dark = 2131296313;
+			// aapt resource value: 0x7f0a0039
+			public const int abc_disabled_alpha_material_dark = 2131361849;
 			
-			// aapt resource value: 0x7f09003a
-			public const int abc_disabled_alpha_material_light = 2131296314;
+			// aapt resource value: 0x7f0a003a
+			public const int abc_disabled_alpha_material_light = 2131361850;
 			
-			// aapt resource value: 0x7f09003b
-			public const int abc_dropdownitem_icon_width = 2131296315;
+			// aapt resource value: 0x7f0a003b
+			public const int abc_dropdownitem_icon_width = 2131361851;
 			
-			// aapt resource value: 0x7f09003c
-			public const int abc_dropdownitem_text_padding_left = 2131296316;
+			// aapt resource value: 0x7f0a003c
+			public const int abc_dropdownitem_text_padding_left = 2131361852;
 			
-			// aapt resource value: 0x7f09003d
-			public const int abc_dropdownitem_text_padding_right = 2131296317;
+			// aapt resource value: 0x7f0a003d
+			public const int abc_dropdownitem_text_padding_right = 2131361853;
 			
-			// aapt resource value: 0x7f09003e
-			public const int abc_edit_text_inset_bottom_material = 2131296318;
+			// aapt resource value: 0x7f0a003e
+			public const int abc_edit_text_inset_bottom_material = 2131361854;
 			
-			// aapt resource value: 0x7f09003f
-			public const int abc_edit_text_inset_horizontal_material = 2131296319;
+			// aapt resource value: 0x7f0a003f
+			public const int abc_edit_text_inset_horizontal_material = 2131361855;
 			
-			// aapt resource value: 0x7f090040
-			public const int abc_edit_text_inset_top_material = 2131296320;
+			// aapt resource value: 0x7f0a0040
+			public const int abc_edit_text_inset_top_material = 2131361856;
 			
-			// aapt resource value: 0x7f090041
-			public const int abc_floating_window_z = 2131296321;
+			// aapt resource value: 0x7f0a0041
+			public const int abc_floating_window_z = 2131361857;
 			
-			// aapt resource value: 0x7f090042
-			public const int abc_list_item_padding_horizontal_material = 2131296322;
+			// aapt resource value: 0x7f0a0042
+			public const int abc_list_item_padding_horizontal_material = 2131361858;
 			
-			// aapt resource value: 0x7f090043
-			public const int abc_panel_menu_list_width = 2131296323;
+			// aapt resource value: 0x7f0a0043
+			public const int abc_panel_menu_list_width = 2131361859;
 			
-			// aapt resource value: 0x7f090044
-			public const int abc_progress_bar_height_material = 2131296324;
+			// aapt resource value: 0x7f0a0044
+			public const int abc_progress_bar_height_material = 2131361860;
 			
-			// aapt resource value: 0x7f090045
-			public const int abc_search_view_preferred_height = 2131296325;
+			// aapt resource value: 0x7f0a0045
+			public const int abc_search_view_preferred_height = 2131361861;
 			
-			// aapt resource value: 0x7f090046
-			public const int abc_search_view_preferred_width = 2131296326;
+			// aapt resource value: 0x7f0a0046
+			public const int abc_search_view_preferred_width = 2131361862;
 			
-			// aapt resource value: 0x7f090047
-			public const int abc_seekbar_track_background_height_material = 2131296327;
+			// aapt resource value: 0x7f0a0047
+			public const int abc_seekbar_track_background_height_material = 2131361863;
 			
-			// aapt resource value: 0x7f090048
-			public const int abc_seekbar_track_progress_height_material = 2131296328;
+			// aapt resource value: 0x7f0a0048
+			public const int abc_seekbar_track_progress_height_material = 2131361864;
 			
-			// aapt resource value: 0x7f090049
-			public const int abc_select_dialog_padding_start_material = 2131296329;
+			// aapt resource value: 0x7f0a0049
+			public const int abc_select_dialog_padding_start_material = 2131361865;
 			
-			// aapt resource value: 0x7f09001e
-			public const int abc_switch_padding = 2131296286;
+			// aapt resource value: 0x7f0a001e
+			public const int abc_switch_padding = 2131361822;
 			
-			// aapt resource value: 0x7f09004a
-			public const int abc_text_size_body_1_material = 2131296330;
+			// aapt resource value: 0x7f0a004a
+			public const int abc_text_size_body_1_material = 2131361866;
 			
-			// aapt resource value: 0x7f09004b
-			public const int abc_text_size_body_2_material = 2131296331;
+			// aapt resource value: 0x7f0a004b
+			public const int abc_text_size_body_2_material = 2131361867;
 			
-			// aapt resource value: 0x7f09004c
-			public const int abc_text_size_button_material = 2131296332;
+			// aapt resource value: 0x7f0a004c
+			public const int abc_text_size_button_material = 2131361868;
 			
-			// aapt resource value: 0x7f09004d
-			public const int abc_text_size_caption_material = 2131296333;
+			// aapt resource value: 0x7f0a004d
+			public const int abc_text_size_caption_material = 2131361869;
 			
-			// aapt resource value: 0x7f09004e
-			public const int abc_text_size_display_1_material = 2131296334;
+			// aapt resource value: 0x7f0a004e
+			public const int abc_text_size_display_1_material = 2131361870;
 			
-			// aapt resource value: 0x7f09004f
-			public const int abc_text_size_display_2_material = 2131296335;
+			// aapt resource value: 0x7f0a004f
+			public const int abc_text_size_display_2_material = 2131361871;
 			
-			// aapt resource value: 0x7f090050
-			public const int abc_text_size_display_3_material = 2131296336;
+			// aapt resource value: 0x7f0a0050
+			public const int abc_text_size_display_3_material = 2131361872;
 			
-			// aapt resource value: 0x7f090051
-			public const int abc_text_size_display_4_material = 2131296337;
+			// aapt resource value: 0x7f0a0051
+			public const int abc_text_size_display_4_material = 2131361873;
 			
-			// aapt resource value: 0x7f090052
-			public const int abc_text_size_headline_material = 2131296338;
+			// aapt resource value: 0x7f0a0052
+			public const int abc_text_size_headline_material = 2131361874;
 			
-			// aapt resource value: 0x7f090053
-			public const int abc_text_size_large_material = 2131296339;
+			// aapt resource value: 0x7f0a0053
+			public const int abc_text_size_large_material = 2131361875;
 			
-			// aapt resource value: 0x7f090054
-			public const int abc_text_size_medium_material = 2131296340;
+			// aapt resource value: 0x7f0a0054
+			public const int abc_text_size_medium_material = 2131361876;
 			
-			// aapt resource value: 0x7f090055
-			public const int abc_text_size_menu_header_material = 2131296341;
+			// aapt resource value: 0x7f0a0055
+			public const int abc_text_size_menu_header_material = 2131361877;
 			
-			// aapt resource value: 0x7f090056
-			public const int abc_text_size_menu_material = 2131296342;
+			// aapt resource value: 0x7f0a0056
+			public const int abc_text_size_menu_material = 2131361878;
 			
-			// aapt resource value: 0x7f090057
-			public const int abc_text_size_small_material = 2131296343;
+			// aapt resource value: 0x7f0a0057
+			public const int abc_text_size_small_material = 2131361879;
 			
-			// aapt resource value: 0x7f090058
-			public const int abc_text_size_subhead_material = 2131296344;
+			// aapt resource value: 0x7f0a0058
+			public const int abc_text_size_subhead_material = 2131361880;
 			
-			// aapt resource value: 0x7f090011
-			public const int abc_text_size_subtitle_material_toolbar = 2131296273;
+			// aapt resource value: 0x7f0a0011
+			public const int abc_text_size_subtitle_material_toolbar = 2131361809;
 			
-			// aapt resource value: 0x7f090059
-			public const int abc_text_size_title_material = 2131296345;
+			// aapt resource value: 0x7f0a0059
+			public const int abc_text_size_title_material = 2131361881;
 			
-			// aapt resource value: 0x7f090012
-			public const int abc_text_size_title_material_toolbar = 2131296274;
+			// aapt resource value: 0x7f0a0012
+			public const int abc_text_size_title_material_toolbar = 2131361810;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int browser_actions_context_menu_max_width = 2131296459;
+			// aapt resource value: 0x7f0a00cb
+			public const int browser_actions_context_menu_max_width = 2131361995;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int browser_actions_context_menu_min_padding = 2131296460;
+			// aapt resource value: 0x7f0a00cc
+			public const int browser_actions_context_menu_min_padding = 2131361996;
 			
-			// aapt resource value: 0x7f09000c
-			public const int cardview_compat_inset_shadow = 2131296268;
+			// aapt resource value: 0x7f0a000c
+			public const int cardview_compat_inset_shadow = 2131361804;
 			
-			// aapt resource value: 0x7f09000d
-			public const int cardview_default_elevation = 2131296269;
+			// aapt resource value: 0x7f0a000d
+			public const int cardview_default_elevation = 2131361805;
 			
-			// aapt resource value: 0x7f09000e
-			public const int cardview_default_radius = 2131296270;
+			// aapt resource value: 0x7f0a000e
+			public const int cardview_default_radius = 2131361806;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int compat_button_inset_horizontal_material = 2131296465;
+			// aapt resource value: 0x7f0a00d1
+			public const int compat_button_inset_horizontal_material = 2131362001;
 			
-			// aapt resource value: 0x7f0900d2
-			public const int compat_button_inset_vertical_material = 2131296466;
+			// aapt resource value: 0x7f0a00d2
+			public const int compat_button_inset_vertical_material = 2131362002;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int compat_button_padding_horizontal_material = 2131296467;
+			// aapt resource value: 0x7f0a00d3
+			public const int compat_button_padding_horizontal_material = 2131362003;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int compat_button_padding_vertical_material = 2131296468;
+			// aapt resource value: 0x7f0a00d4
+			public const int compat_button_padding_vertical_material = 2131362004;
 			
-			// aapt resource value: 0x7f0900d5
-			public const int compat_control_corner_material = 2131296469;
+			// aapt resource value: 0x7f0a00d5
+			public const int compat_control_corner_material = 2131362005;
 			
-			// aapt resource value: 0x7f0900d6
-			public const int compat_notification_large_icon_max_height = 2131296470;
+			// aapt resource value: 0x7f0a00d6
+			public const int compat_notification_large_icon_max_height = 2131362006;
 			
-			// aapt resource value: 0x7f0900d7
-			public const int compat_notification_large_icon_max_width = 2131296471;
+			// aapt resource value: 0x7f0a00d7
+			public const int compat_notification_large_icon_max_width = 2131362007;
 			
-			// aapt resource value: 0x7f090077
-			public const int design_appbar_elevation = 2131296375;
+			// aapt resource value: 0x7f0a0077
+			public const int design_appbar_elevation = 2131361911;
 			
-			// aapt resource value: 0x7f090078
-			public const int design_bottom_navigation_active_item_max_width = 2131296376;
+			// aapt resource value: 0x7f0a0078
+			public const int design_bottom_navigation_active_item_max_width = 2131361912;
 			
-			// aapt resource value: 0x7f090079
-			public const int design_bottom_navigation_active_item_min_width = 2131296377;
+			// aapt resource value: 0x7f0a0079
+			public const int design_bottom_navigation_active_item_min_width = 2131361913;
 			
-			// aapt resource value: 0x7f09007a
-			public const int design_bottom_navigation_active_text_size = 2131296378;
+			// aapt resource value: 0x7f0a007a
+			public const int design_bottom_navigation_active_text_size = 2131361914;
 			
-			// aapt resource value: 0x7f09007b
-			public const int design_bottom_navigation_elevation = 2131296379;
+			// aapt resource value: 0x7f0a007b
+			public const int design_bottom_navigation_elevation = 2131361915;
 			
-			// aapt resource value: 0x7f09007c
-			public const int design_bottom_navigation_height = 2131296380;
+			// aapt resource value: 0x7f0a007c
+			public const int design_bottom_navigation_height = 2131361916;
 			
-			// aapt resource value: 0x7f09007d
-			public const int design_bottom_navigation_icon_size = 2131296381;
+			// aapt resource value: 0x7f0a007d
+			public const int design_bottom_navigation_icon_size = 2131361917;
 			
-			// aapt resource value: 0x7f09007e
-			public const int design_bottom_navigation_item_max_width = 2131296382;
+			// aapt resource value: 0x7f0a007e
+			public const int design_bottom_navigation_item_max_width = 2131361918;
 			
-			// aapt resource value: 0x7f09007f
-			public const int design_bottom_navigation_item_min_width = 2131296383;
+			// aapt resource value: 0x7f0a007f
+			public const int design_bottom_navigation_item_min_width = 2131361919;
 			
-			// aapt resource value: 0x7f090080
-			public const int design_bottom_navigation_margin = 2131296384;
+			// aapt resource value: 0x7f0a0080
+			public const int design_bottom_navigation_margin = 2131361920;
 			
-			// aapt resource value: 0x7f090081
-			public const int design_bottom_navigation_shadow_height = 2131296385;
+			// aapt resource value: 0x7f0a0081
+			public const int design_bottom_navigation_shadow_height = 2131361921;
 			
-			// aapt resource value: 0x7f090082
-			public const int design_bottom_navigation_text_size = 2131296386;
+			// aapt resource value: 0x7f0a0082
+			public const int design_bottom_navigation_text_size = 2131361922;
 			
-			// aapt resource value: 0x7f090083
-			public const int design_bottom_sheet_modal_elevation = 2131296387;
+			// aapt resource value: 0x7f0a0083
+			public const int design_bottom_sheet_modal_elevation = 2131361923;
 			
-			// aapt resource value: 0x7f090084
-			public const int design_bottom_sheet_peek_height_min = 2131296388;
+			// aapt resource value: 0x7f0a0084
+			public const int design_bottom_sheet_peek_height_min = 2131361924;
 			
-			// aapt resource value: 0x7f090085
-			public const int design_fab_border_width = 2131296389;
+			// aapt resource value: 0x7f0a0085
+			public const int design_fab_border_width = 2131361925;
 			
-			// aapt resource value: 0x7f090086
-			public const int design_fab_elevation = 2131296390;
+			// aapt resource value: 0x7f0a0086
+			public const int design_fab_elevation = 2131361926;
 			
-			// aapt resource value: 0x7f090087
-			public const int design_fab_image_size = 2131296391;
+			// aapt resource value: 0x7f0a0087
+			public const int design_fab_image_size = 2131361927;
 			
-			// aapt resource value: 0x7f090088
-			public const int design_fab_size_mini = 2131296392;
+			// aapt resource value: 0x7f0a0088
+			public const int design_fab_size_mini = 2131361928;
 			
-			// aapt resource value: 0x7f090089
-			public const int design_fab_size_normal = 2131296393;
+			// aapt resource value: 0x7f0a0089
+			public const int design_fab_size_normal = 2131361929;
 			
-			// aapt resource value: 0x7f09008a
-			public const int design_fab_translation_z_hovered_focused = 2131296394;
+			// aapt resource value: 0x7f0a008a
+			public const int design_fab_translation_z_hovered_focused = 2131361930;
 			
-			// aapt resource value: 0x7f09008b
-			public const int design_fab_translation_z_pressed = 2131296395;
+			// aapt resource value: 0x7f0a008b
+			public const int design_fab_translation_z_pressed = 2131361931;
 			
-			// aapt resource value: 0x7f09008c
-			public const int design_navigation_elevation = 2131296396;
+			// aapt resource value: 0x7f0a008c
+			public const int design_navigation_elevation = 2131361932;
 			
-			// aapt resource value: 0x7f09008d
-			public const int design_navigation_icon_padding = 2131296397;
+			// aapt resource value: 0x7f0a008d
+			public const int design_navigation_icon_padding = 2131361933;
 			
-			// aapt resource value: 0x7f09008e
-			public const int design_navigation_icon_size = 2131296398;
+			// aapt resource value: 0x7f0a008e
+			public const int design_navigation_icon_size = 2131361934;
 			
-			// aapt resource value: 0x7f09008f
-			public const int design_navigation_item_horizontal_padding = 2131296399;
+			// aapt resource value: 0x7f0a008f
+			public const int design_navigation_item_horizontal_padding = 2131361935;
 			
-			// aapt resource value: 0x7f090090
-			public const int design_navigation_item_icon_padding = 2131296400;
+			// aapt resource value: 0x7f0a0090
+			public const int design_navigation_item_icon_padding = 2131361936;
 			
-			// aapt resource value: 0x7f09006f
-			public const int design_navigation_max_width = 2131296367;
+			// aapt resource value: 0x7f0a006f
+			public const int design_navigation_max_width = 2131361903;
 			
-			// aapt resource value: 0x7f090091
-			public const int design_navigation_padding_bottom = 2131296401;
+			// aapt resource value: 0x7f0a0091
+			public const int design_navigation_padding_bottom = 2131361937;
 			
-			// aapt resource value: 0x7f090092
-			public const int design_navigation_separator_vertical_padding = 2131296402;
+			// aapt resource value: 0x7f0a0092
+			public const int design_navigation_separator_vertical_padding = 2131361938;
 			
-			// aapt resource value: 0x7f090070
-			public const int design_snackbar_action_inline_max_width = 2131296368;
+			// aapt resource value: 0x7f0a0070
+			public const int design_snackbar_action_inline_max_width = 2131361904;
 			
-			// aapt resource value: 0x7f090071
-			public const int design_snackbar_background_corner_radius = 2131296369;
+			// aapt resource value: 0x7f0a0071
+			public const int design_snackbar_background_corner_radius = 2131361905;
 			
-			// aapt resource value: 0x7f090093
-			public const int design_snackbar_elevation = 2131296403;
+			// aapt resource value: 0x7f0a0093
+			public const int design_snackbar_elevation = 2131361939;
 			
-			// aapt resource value: 0x7f090072
-			public const int design_snackbar_extra_spacing_horizontal = 2131296370;
+			// aapt resource value: 0x7f0a0072
+			public const int design_snackbar_extra_spacing_horizontal = 2131361906;
 			
-			// aapt resource value: 0x7f090073
-			public const int design_snackbar_max_width = 2131296371;
+			// aapt resource value: 0x7f0a0073
+			public const int design_snackbar_max_width = 2131361907;
 			
-			// aapt resource value: 0x7f090074
-			public const int design_snackbar_min_width = 2131296372;
+			// aapt resource value: 0x7f0a0074
+			public const int design_snackbar_min_width = 2131361908;
 			
-			// aapt resource value: 0x7f090094
-			public const int design_snackbar_padding_horizontal = 2131296404;
+			// aapt resource value: 0x7f0a0094
+			public const int design_snackbar_padding_horizontal = 2131361940;
 			
-			// aapt resource value: 0x7f090095
-			public const int design_snackbar_padding_vertical = 2131296405;
+			// aapt resource value: 0x7f0a0095
+			public const int design_snackbar_padding_vertical = 2131361941;
 			
-			// aapt resource value: 0x7f090075
-			public const int design_snackbar_padding_vertical_2lines = 2131296373;
+			// aapt resource value: 0x7f0a0075
+			public const int design_snackbar_padding_vertical_2lines = 2131361909;
 			
-			// aapt resource value: 0x7f090096
-			public const int design_snackbar_text_size = 2131296406;
+			// aapt resource value: 0x7f0a0096
+			public const int design_snackbar_text_size = 2131361942;
 			
-			// aapt resource value: 0x7f090097
-			public const int design_tab_max_width = 2131296407;
+			// aapt resource value: 0x7f0a0097
+			public const int design_tab_max_width = 2131361943;
 			
-			// aapt resource value: 0x7f090076
-			public const int design_tab_scrollable_min_width = 2131296374;
+			// aapt resource value: 0x7f0a0076
+			public const int design_tab_scrollable_min_width = 2131361910;
 			
-			// aapt resource value: 0x7f090098
-			public const int design_tab_text_size = 2131296408;
+			// aapt resource value: 0x7f0a0098
+			public const int design_tab_text_size = 2131361944;
 			
-			// aapt resource value: 0x7f090099
-			public const int design_tab_text_size_2line = 2131296409;
+			// aapt resource value: 0x7f0a0099
+			public const int design_tab_text_size_2line = 2131361945;
 			
-			// aapt resource value: 0x7f09009a
-			public const int design_textinput_caption_translate_y = 2131296410;
+			// aapt resource value: 0x7f0a009a
+			public const int design_textinput_caption_translate_y = 2131361946;
 			
-			// aapt resource value: 0x7f09005a
-			public const int disabled_alpha_material_dark = 2131296346;
+			// aapt resource value: 0x7f0a005a
+			public const int disabled_alpha_material_dark = 2131361882;
 			
-			// aapt resource value: 0x7f09005b
-			public const int disabled_alpha_material_light = 2131296347;
+			// aapt resource value: 0x7f0a005b
+			public const int disabled_alpha_material_light = 2131361883;
 			
-			// aapt resource value: 0x7f090000
-			public const int fastscroll_default_thickness = 2131296256;
+			// aapt resource value: 0x7f0a0000
+			public const int fastscroll_default_thickness = 2131361792;
 			
-			// aapt resource value: 0x7f090001
-			public const int fastscroll_margin = 2131296257;
+			// aapt resource value: 0x7f0a0001
+			public const int fastscroll_margin = 2131361793;
 			
-			// aapt resource value: 0x7f090002
-			public const int fastscroll_minimum_range = 2131296258;
+			// aapt resource value: 0x7f0a0002
+			public const int fastscroll_minimum_range = 2131361794;
 			
-			// aapt resource value: 0x7f09005c
-			public const int highlight_alpha_material_colored = 2131296348;
+			// aapt resource value: 0x7f0a005c
+			public const int highlight_alpha_material_colored = 2131361884;
 			
-			// aapt resource value: 0x7f09005d
-			public const int highlight_alpha_material_dark = 2131296349;
+			// aapt resource value: 0x7f0a005d
+			public const int highlight_alpha_material_dark = 2131361885;
 			
-			// aapt resource value: 0x7f09005e
-			public const int highlight_alpha_material_light = 2131296350;
+			// aapt resource value: 0x7f0a005e
+			public const int highlight_alpha_material_light = 2131361886;
 			
-			// aapt resource value: 0x7f09005f
-			public const int hint_alpha_material_dark = 2131296351;
+			// aapt resource value: 0x7f0a005f
+			public const int hint_alpha_material_dark = 2131361887;
 			
-			// aapt resource value: 0x7f090060
-			public const int hint_alpha_material_light = 2131296352;
+			// aapt resource value: 0x7f0a0060
+			public const int hint_alpha_material_light = 2131361888;
 			
-			// aapt resource value: 0x7f090061
-			public const int hint_pressed_alpha_material_dark = 2131296353;
+			// aapt resource value: 0x7f0a0061
+			public const int hint_pressed_alpha_material_dark = 2131361889;
 			
-			// aapt resource value: 0x7f090062
-			public const int hint_pressed_alpha_material_light = 2131296354;
+			// aapt resource value: 0x7f0a0062
+			public const int hint_pressed_alpha_material_light = 2131361890;
 			
-			// aapt resource value: 0x7f090003
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131296259;
+			// aapt resource value: 0x7f0a0003
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131361795;
 			
-			// aapt resource value: 0x7f090004
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131296260;
+			// aapt resource value: 0x7f0a0004
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131361796;
 			
-			// aapt resource value: 0x7f090005
-			public const int item_touch_helper_swipe_escape_velocity = 2131296261;
+			// aapt resource value: 0x7f0a0005
+			public const int item_touch_helper_swipe_escape_velocity = 2131361797;
 			
-			// aapt resource value: 0x7f090006
-			public const int mr_controller_volume_group_list_item_height = 2131296262;
+			// aapt resource value: 0x7f0a0006
+			public const int mr_controller_volume_group_list_item_height = 2131361798;
 			
-			// aapt resource value: 0x7f090007
-			public const int mr_controller_volume_group_list_item_icon_size = 2131296263;
+			// aapt resource value: 0x7f0a0007
+			public const int mr_controller_volume_group_list_item_icon_size = 2131361799;
 			
-			// aapt resource value: 0x7f090008
-			public const int mr_controller_volume_group_list_max_height = 2131296264;
+			// aapt resource value: 0x7f0a0008
+			public const int mr_controller_volume_group_list_max_height = 2131361800;
 			
-			// aapt resource value: 0x7f09000b
-			public const int mr_controller_volume_group_list_padding_top = 2131296267;
+			// aapt resource value: 0x7f0a000b
+			public const int mr_controller_volume_group_list_padding_top = 2131361803;
 			
-			// aapt resource value: 0x7f090009
-			public const int mr_dialog_fixed_width_major = 2131296265;
+			// aapt resource value: 0x7f0a0009
+			public const int mr_dialog_fixed_width_major = 2131361801;
 			
-			// aapt resource value: 0x7f09000a
-			public const int mr_dialog_fixed_width_minor = 2131296266;
+			// aapt resource value: 0x7f0a000a
+			public const int mr_dialog_fixed_width_minor = 2131361802;
 			
-			// aapt resource value: 0x7f09009b
-			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131296411;
+			// aapt resource value: 0x7f0a009b
+			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131361947;
 			
-			// aapt resource value: 0x7f09009c
-			public const int mtrl_bottomappbar_fab_cradle_margin = 2131296412;
+			// aapt resource value: 0x7f0a009c
+			public const int mtrl_bottomappbar_fab_cradle_margin = 2131361948;
 			
-			// aapt resource value: 0x7f09009d
-			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131296413;
+			// aapt resource value: 0x7f0a009d
+			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131361949;
 			
-			// aapt resource value: 0x7f09009e
-			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131296414;
+			// aapt resource value: 0x7f0a009e
+			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131361950;
 			
-			// aapt resource value: 0x7f09009f
-			public const int mtrl_bottomappbar_height = 2131296415;
+			// aapt resource value: 0x7f0a009f
+			public const int mtrl_bottomappbar_height = 2131361951;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int mtrl_btn_corner_radius = 2131296416;
+			// aapt resource value: 0x7f0a00a0
+			public const int mtrl_btn_corner_radius = 2131361952;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int mtrl_btn_dialog_btn_min_width = 2131296417;
+			// aapt resource value: 0x7f0a00a1
+			public const int mtrl_btn_dialog_btn_min_width = 2131361953;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int mtrl_btn_disabled_elevation = 2131296418;
+			// aapt resource value: 0x7f0a00a2
+			public const int mtrl_btn_disabled_elevation = 2131361954;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int mtrl_btn_disabled_z = 2131296419;
+			// aapt resource value: 0x7f0a00a3
+			public const int mtrl_btn_disabled_z = 2131361955;
 			
-			// aapt resource value: 0x7f0900a4
-			public const int mtrl_btn_elevation = 2131296420;
+			// aapt resource value: 0x7f0a00a4
+			public const int mtrl_btn_elevation = 2131361956;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int mtrl_btn_focused_z = 2131296421;
+			// aapt resource value: 0x7f0a00a5
+			public const int mtrl_btn_focused_z = 2131361957;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int mtrl_btn_hovered_z = 2131296422;
+			// aapt resource value: 0x7f0a00a6
+			public const int mtrl_btn_hovered_z = 2131361958;
 			
-			// aapt resource value: 0x7f0900a7
-			public const int mtrl_btn_icon_btn_padding_left = 2131296423;
+			// aapt resource value: 0x7f0a00a7
+			public const int mtrl_btn_icon_btn_padding_left = 2131361959;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int mtrl_btn_icon_padding = 2131296424;
+			// aapt resource value: 0x7f0a00a8
+			public const int mtrl_btn_icon_padding = 2131361960;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int mtrl_btn_inset = 2131296425;
+			// aapt resource value: 0x7f0a00a9
+			public const int mtrl_btn_inset = 2131361961;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int mtrl_btn_letter_spacing = 2131296426;
+			// aapt resource value: 0x7f0a00aa
+			public const int mtrl_btn_letter_spacing = 2131361962;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int mtrl_btn_padding_bottom = 2131296427;
+			// aapt resource value: 0x7f0a00ab
+			public const int mtrl_btn_padding_bottom = 2131361963;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int mtrl_btn_padding_left = 2131296428;
+			// aapt resource value: 0x7f0a00ac
+			public const int mtrl_btn_padding_left = 2131361964;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int mtrl_btn_padding_right = 2131296429;
+			// aapt resource value: 0x7f0a00ad
+			public const int mtrl_btn_padding_right = 2131361965;
 			
-			// aapt resource value: 0x7f0900ae
-			public const int mtrl_btn_padding_top = 2131296430;
+			// aapt resource value: 0x7f0a00ae
+			public const int mtrl_btn_padding_top = 2131361966;
 			
-			// aapt resource value: 0x7f0900af
-			public const int mtrl_btn_pressed_z = 2131296431;
+			// aapt resource value: 0x7f0a00af
+			public const int mtrl_btn_pressed_z = 2131361967;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int mtrl_btn_stroke_size = 2131296432;
+			// aapt resource value: 0x7f0a00b0
+			public const int mtrl_btn_stroke_size = 2131361968;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int mtrl_btn_text_btn_icon_padding = 2131296433;
+			// aapt resource value: 0x7f0a00b1
+			public const int mtrl_btn_text_btn_icon_padding = 2131361969;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int mtrl_btn_text_btn_padding_left = 2131296434;
+			// aapt resource value: 0x7f0a00b2
+			public const int mtrl_btn_text_btn_padding_left = 2131361970;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int mtrl_btn_text_btn_padding_right = 2131296435;
+			// aapt resource value: 0x7f0a00b3
+			public const int mtrl_btn_text_btn_padding_right = 2131361971;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int mtrl_btn_text_size = 2131296436;
+			// aapt resource value: 0x7f0a00b4
+			public const int mtrl_btn_text_size = 2131361972;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int mtrl_btn_z = 2131296437;
+			// aapt resource value: 0x7f0a00b5
+			public const int mtrl_btn_z = 2131361973;
 			
-			// aapt resource value: 0x7f0900b6
-			public const int mtrl_card_elevation = 2131296438;
+			// aapt resource value: 0x7f0a00b6
+			public const int mtrl_card_elevation = 2131361974;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int mtrl_card_spacing = 2131296439;
+			// aapt resource value: 0x7f0a00b7
+			public const int mtrl_card_spacing = 2131361975;
 			
-			// aapt resource value: 0x7f0900b8
-			public const int mtrl_chip_pressed_translation_z = 2131296440;
+			// aapt resource value: 0x7f0a00b8
+			public const int mtrl_chip_pressed_translation_z = 2131361976;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int mtrl_chip_text_size = 2131296441;
+			// aapt resource value: 0x7f0a00b9
+			public const int mtrl_chip_text_size = 2131361977;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int mtrl_fab_elevation = 2131296442;
+			// aapt resource value: 0x7f0a00ba
+			public const int mtrl_fab_elevation = 2131361978;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int mtrl_fab_translation_z_hovered_focused = 2131296443;
+			// aapt resource value: 0x7f0a00bb
+			public const int mtrl_fab_translation_z_hovered_focused = 2131361979;
 			
-			// aapt resource value: 0x7f0900bc
-			public const int mtrl_fab_translation_z_pressed = 2131296444;
+			// aapt resource value: 0x7f0a00bc
+			public const int mtrl_fab_translation_z_pressed = 2131361980;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int mtrl_navigation_elevation = 2131296445;
+			// aapt resource value: 0x7f0a00bd
+			public const int mtrl_navigation_elevation = 2131361981;
 			
-			// aapt resource value: 0x7f0900be
-			public const int mtrl_navigation_item_horizontal_padding = 2131296446;
+			// aapt resource value: 0x7f0a00be
+			public const int mtrl_navigation_item_horizontal_padding = 2131361982;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int mtrl_navigation_item_icon_padding = 2131296447;
+			// aapt resource value: 0x7f0a00bf
+			public const int mtrl_navigation_item_icon_padding = 2131361983;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int mtrl_snackbar_background_corner_radius = 2131296448;
+			// aapt resource value: 0x7f0a00c0
+			public const int mtrl_snackbar_background_corner_radius = 2131361984;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int mtrl_snackbar_margin = 2131296449;
+			// aapt resource value: 0x7f0a00c1
+			public const int mtrl_snackbar_margin = 2131361985;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int mtrl_textinput_box_bottom_offset = 2131296450;
+			// aapt resource value: 0x7f0a00c2
+			public const int mtrl_textinput_box_bottom_offset = 2131361986;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int mtrl_textinput_box_corner_radius_medium = 2131296451;
+			// aapt resource value: 0x7f0a00c3
+			public const int mtrl_textinput_box_corner_radius_medium = 2131361987;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int mtrl_textinput_box_corner_radius_small = 2131296452;
+			// aapt resource value: 0x7f0a00c4
+			public const int mtrl_textinput_box_corner_radius_small = 2131361988;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int mtrl_textinput_box_label_cutout_padding = 2131296453;
+			// aapt resource value: 0x7f0a00c5
+			public const int mtrl_textinput_box_label_cutout_padding = 2131361989;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int mtrl_textinput_box_padding_end = 2131296454;
+			// aapt resource value: 0x7f0a00c6
+			public const int mtrl_textinput_box_padding_end = 2131361990;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int mtrl_textinput_box_stroke_width_default = 2131296455;
+			// aapt resource value: 0x7f0a00c7
+			public const int mtrl_textinput_box_stroke_width_default = 2131361991;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int mtrl_textinput_box_stroke_width_focused = 2131296456;
+			// aapt resource value: 0x7f0a00c8
+			public const int mtrl_textinput_box_stroke_width_focused = 2131361992;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int mtrl_textinput_outline_box_expanded_padding = 2131296457;
+			// aapt resource value: 0x7f0a00c9
+			public const int mtrl_textinput_outline_box_expanded_padding = 2131361993;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int mtrl_toolbar_default_height = 2131296458;
+			// aapt resource value: 0x7f0a00ca
+			public const int mtrl_toolbar_default_height = 2131361994;
 			
-			// aapt resource value: 0x7f0900d8
-			public const int notification_action_icon_size = 2131296472;
+			// aapt resource value: 0x7f0a00d8
+			public const int notification_action_icon_size = 2131362008;
 			
-			// aapt resource value: 0x7f0900d9
-			public const int notification_action_text_size = 2131296473;
+			// aapt resource value: 0x7f0a00d9
+			public const int notification_action_text_size = 2131362009;
 			
-			// aapt resource value: 0x7f0900da
-			public const int notification_big_circle_margin = 2131296474;
+			// aapt resource value: 0x7f0a00da
+			public const int notification_big_circle_margin = 2131362010;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int notification_content_margin_start = 2131296462;
+			// aapt resource value: 0x7f0a00ce
+			public const int notification_content_margin_start = 2131361998;
 			
-			// aapt resource value: 0x7f0900db
-			public const int notification_large_icon_height = 2131296475;
+			// aapt resource value: 0x7f0a00db
+			public const int notification_large_icon_height = 2131362011;
 			
-			// aapt resource value: 0x7f0900dc
-			public const int notification_large_icon_width = 2131296476;
+			// aapt resource value: 0x7f0a00dc
+			public const int notification_large_icon_width = 2131362012;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int notification_main_column_padding_top = 2131296463;
+			// aapt resource value: 0x7f0a00cf
+			public const int notification_main_column_padding_top = 2131361999;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int notification_media_narrow_margin = 2131296464;
+			// aapt resource value: 0x7f0a00d0
+			public const int notification_media_narrow_margin = 2131362000;
 			
-			// aapt resource value: 0x7f0900dd
-			public const int notification_right_icon_size = 2131296477;
+			// aapt resource value: 0x7f0a00dd
+			public const int notification_right_icon_size = 2131362013;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int notification_right_side_padding_top = 2131296461;
+			// aapt resource value: 0x7f0a00cd
+			public const int notification_right_side_padding_top = 2131361997;
 			
-			// aapt resource value: 0x7f0900de
-			public const int notification_small_icon_background_padding = 2131296478;
+			// aapt resource value: 0x7f0a00de
+			public const int notification_small_icon_background_padding = 2131362014;
 			
-			// aapt resource value: 0x7f0900df
-			public const int notification_small_icon_size_as_large = 2131296479;
+			// aapt resource value: 0x7f0a00df
+			public const int notification_small_icon_size_as_large = 2131362015;
 			
-			// aapt resource value: 0x7f0900e0
-			public const int notification_subtext_size = 2131296480;
+			// aapt resource value: 0x7f0a00e0
+			public const int notification_subtext_size = 2131362016;
 			
-			// aapt resource value: 0x7f0900e1
-			public const int notification_top_pad = 2131296481;
+			// aapt resource value: 0x7f0a00e1
+			public const int notification_top_pad = 2131362017;
 			
-			// aapt resource value: 0x7f0900e2
-			public const int notification_top_pad_large_text = 2131296482;
+			// aapt resource value: 0x7f0a00e2
+			public const int notification_top_pad_large_text = 2131362018;
 			
-			// aapt resource value: 0x7f09006b
-			public const int subtitle_corner_radius = 2131296363;
+			// aapt resource value: 0x7f0a006b
+			public const int subtitle_corner_radius = 2131361899;
 			
-			// aapt resource value: 0x7f09006c
-			public const int subtitle_outline_width = 2131296364;
+			// aapt resource value: 0x7f0a006c
+			public const int subtitle_outline_width = 2131361900;
 			
-			// aapt resource value: 0x7f09006d
-			public const int subtitle_shadow_offset = 2131296365;
+			// aapt resource value: 0x7f0a006d
+			public const int subtitle_shadow_offset = 2131361901;
 			
-			// aapt resource value: 0x7f09006e
-			public const int subtitle_shadow_radius = 2131296366;
+			// aapt resource value: 0x7f0a006e
+			public const int subtitle_shadow_radius = 2131361902;
 			
-			// aapt resource value: 0x7f090063
-			public const int tooltip_corner_radius = 2131296355;
+			// aapt resource value: 0x7f0a0063
+			public const int tooltip_corner_radius = 2131361891;
 			
-			// aapt resource value: 0x7f090064
-			public const int tooltip_horizontal_padding = 2131296356;
+			// aapt resource value: 0x7f0a0064
+			public const int tooltip_horizontal_padding = 2131361892;
 			
-			// aapt resource value: 0x7f090065
-			public const int tooltip_margin = 2131296357;
+			// aapt resource value: 0x7f0a0065
+			public const int tooltip_margin = 2131361893;
 			
-			// aapt resource value: 0x7f090066
-			public const int tooltip_precise_anchor_extra_offset = 2131296358;
+			// aapt resource value: 0x7f0a0066
+			public const int tooltip_precise_anchor_extra_offset = 2131361894;
 			
-			// aapt resource value: 0x7f090067
-			public const int tooltip_precise_anchor_threshold = 2131296359;
+			// aapt resource value: 0x7f0a0067
+			public const int tooltip_precise_anchor_threshold = 2131361895;
 			
-			// aapt resource value: 0x7f090068
-			public const int tooltip_vertical_padding = 2131296360;
+			// aapt resource value: 0x7f0a0068
+			public const int tooltip_vertical_padding = 2131361896;
 			
-			// aapt resource value: 0x7f090069
-			public const int tooltip_y_offset_non_touch = 2131296361;
+			// aapt resource value: 0x7f0a0069
+			public const int tooltip_y_offset_non_touch = 2131361897;
 			
-			// aapt resource value: 0x7f09006a
-			public const int tooltip_y_offset_touch = 2131296362;
+			// aapt resource value: 0x7f0a006a
+			public const int tooltip_y_offset_touch = 2131361898;
 			
 			static Dimension()
 			{
@@ -6490,770 +9073,770 @@ namespace MySquad.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a0039
-			public const int ALT = 2131361849;
+			// aapt resource value: 0x7f0b0039
+			public const int ALT = 2131427385;
 			
-			// aapt resource value: 0x7f0a003a
-			public const int CTRL = 2131361850;
+			// aapt resource value: 0x7f0b003a
+			public const int CTRL = 2131427386;
 			
-			// aapt resource value: 0x7f0a003b
-			public const int FUNCTION = 2131361851;
+			// aapt resource value: 0x7f0b003b
+			public const int FUNCTION = 2131427387;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int META = 2131361852;
+			// aapt resource value: 0x7f0b003c
+			public const int META = 2131427388;
 			
-			// aapt resource value: 0x7f0a003d
-			public const int SHIFT = 2131361853;
+			// aapt resource value: 0x7f0b003d
+			public const int SHIFT = 2131427389;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int SYM = 2131361854;
+			// aapt resource value: 0x7f0b003e
+			public const int SYM = 2131427390;
 			
-			// aapt resource value: 0x7f0a00e4
-			public const int action0 = 2131362020;
+			// aapt resource value: 0x7f0b00e4
+			public const int action0 = 2131427556;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int action_bar = 2131361933;
+			// aapt resource value: 0x7f0b008d
+			public const int action_bar = 2131427469;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int action_bar_activity_content = 2131361793;
+			// aapt resource value: 0x7f0b0001
+			public const int action_bar_activity_content = 2131427329;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int action_bar_container = 2131361932;
+			// aapt resource value: 0x7f0b008c
+			public const int action_bar_container = 2131427468;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int action_bar_root = 2131361928;
+			// aapt resource value: 0x7f0b0088
+			public const int action_bar_root = 2131427464;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int action_bar_spinner = 2131361794;
+			// aapt resource value: 0x7f0b0002
+			public const int action_bar_spinner = 2131427330;
 			
-			// aapt resource value: 0x7f0a006a
-			public const int action_bar_subtitle = 2131361898;
+			// aapt resource value: 0x7f0b006a
+			public const int action_bar_subtitle = 2131427434;
 			
-			// aapt resource value: 0x7f0a0069
-			public const int action_bar_title = 2131361897;
+			// aapt resource value: 0x7f0b0069
+			public const int action_bar_title = 2131427433;
 			
-			// aapt resource value: 0x7f0a00e1
-			public const int action_container = 2131362017;
+			// aapt resource value: 0x7f0b00e1
+			public const int action_container = 2131427553;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int action_context_bar = 2131361934;
+			// aapt resource value: 0x7f0b008e
+			public const int action_context_bar = 2131427470;
 			
-			// aapt resource value: 0x7f0a00e8
-			public const int action_divider = 2131362024;
+			// aapt resource value: 0x7f0b00e8
+			public const int action_divider = 2131427560;
 			
-			// aapt resource value: 0x7f0a00e2
-			public const int action_image = 2131362018;
+			// aapt resource value: 0x7f0b00e2
+			public const int action_image = 2131427554;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int action_menu_divider = 2131361795;
+			// aapt resource value: 0x7f0b0003
+			public const int action_menu_divider = 2131427331;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int action_menu_presenter = 2131361796;
+			// aapt resource value: 0x7f0b0004
+			public const int action_menu_presenter = 2131427332;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int action_mode_bar = 2131361930;
+			// aapt resource value: 0x7f0b008a
+			public const int action_mode_bar = 2131427466;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int action_mode_bar_stub = 2131361929;
+			// aapt resource value: 0x7f0b0089
+			public const int action_mode_bar_stub = 2131427465;
 			
-			// aapt resource value: 0x7f0a006b
-			public const int action_mode_close_button = 2131361899;
+			// aapt resource value: 0x7f0b006b
+			public const int action_mode_close_button = 2131427435;
 			
-			// aapt resource value: 0x7f0a00e3
-			public const int action_text = 2131362019;
+			// aapt resource value: 0x7f0b00e3
+			public const int action_text = 2131427555;
 			
-			// aapt resource value: 0x7f0a00f1
-			public const int actions = 2131362033;
+			// aapt resource value: 0x7f0b00f1
+			public const int actions = 2131427569;
 			
-			// aapt resource value: 0x7f0a006c
-			public const int activity_chooser_view_content = 2131361900;
+			// aapt resource value: 0x7f0b006c
+			public const int activity_chooser_view_content = 2131427436;
 			
-			// aapt resource value: 0x7f0a002e
-			public const int add = 2131361838;
+			// aapt resource value: 0x7f0b002e
+			public const int add = 2131427374;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int alertTitle = 2131361919;
+			// aapt resource value: 0x7f0b007f
+			public const int alertTitle = 2131427455;
 			
-			// aapt resource value: 0x7f0a0064
-			public const int all = 2131361892;
+			// aapt resource value: 0x7f0b0064
+			public const int all = 2131427428;
 			
-			// aapt resource value: 0x7f0a003f
-			public const int always = 2131361855;
+			// aapt resource value: 0x7f0b003f
+			public const int always = 2131427391;
 			
-			// aapt resource value: 0x7f0a0065
-			public const int async = 2131361893;
+			// aapt resource value: 0x7f0b0065
+			public const int async = 2131427429;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int auto = 2131361869;
+			// aapt resource value: 0x7f0b004d
+			public const int auto = 2131427405;
 			
-			// aapt resource value: 0x7f0a0036
-			public const int beginning = 2131361846;
+			// aapt resource value: 0x7f0b0036
+			public const int beginning = 2131427382;
 			
-			// aapt resource value: 0x7f0a0066
-			public const int blocking = 2131361894;
+			// aapt resource value: 0x7f0b0066
+			public const int blocking = 2131427430;
 			
-			// aapt resource value: 0x7f0a0044
-			public const int bottom = 2131361860;
+			// aapt resource value: 0x7f0b0044
+			public const int bottom = 2131427396;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int bottomtab_navarea = 2131361949;
+			// aapt resource value: 0x7f0b009d
+			public const int bottomtab_navarea = 2131427485;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int bottomtab_tabbar = 2131361950;
+			// aapt resource value: 0x7f0b009e
+			public const int bottomtab_tabbar = 2131427486;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int browser_actions_header_text = 2131361952;
+			// aapt resource value: 0x7f0b00a0
+			public const int browser_actions_header_text = 2131427488;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int browser_actions_menu_item_icon = 2131361954;
+			// aapt resource value: 0x7f0b00a2
+			public const int browser_actions_menu_item_icon = 2131427490;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int browser_actions_menu_item_text = 2131361955;
+			// aapt resource value: 0x7f0b00a3
+			public const int browser_actions_menu_item_text = 2131427491;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int browser_actions_menu_items = 2131361953;
+			// aapt resource value: 0x7f0b00a1
+			public const int browser_actions_menu_items = 2131427489;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int browser_actions_menu_view = 2131361951;
+			// aapt resource value: 0x7f0b009f
+			public const int browser_actions_menu_view = 2131427487;
 			
-			// aapt resource value: 0x7f0a0072
-			public const int buttonPanel = 2131361906;
+			// aapt resource value: 0x7f0b0072
+			public const int buttonPanel = 2131427442;
 			
-			// aapt resource value: 0x7f0a00e5
-			public const int cancel_action = 2131362021;
+			// aapt resource value: 0x7f0b00e5
+			public const int cancel_action = 2131427557;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int center = 2131361868;
+			// aapt resource value: 0x7f0b004c
+			public const int center = 2131427404;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int center_horizontal = 2131361873;
+			// aapt resource value: 0x7f0b0051
+			public const int center_horizontal = 2131427409;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int center_vertical = 2131361874;
+			// aapt resource value: 0x7f0b0052
+			public const int center_vertical = 2131427410;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int checkbox = 2131361926;
+			// aapt resource value: 0x7f0b0086
+			public const int checkbox = 2131427462;
 			
-			// aapt resource value: 0x7f0a00ed
-			public const int chronometer = 2131362029;
+			// aapt resource value: 0x7f0b00ed
+			public const int chronometer = 2131427565;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int clip_horizontal = 2131361889;
+			// aapt resource value: 0x7f0b0061
+			public const int clip_horizontal = 2131427425;
 			
-			// aapt resource value: 0x7f0a0062
-			public const int clip_vertical = 2131361890;
+			// aapt resource value: 0x7f0b0062
+			public const int clip_vertical = 2131427426;
 			
-			// aapt resource value: 0x7f0a0040
-			public const int collapseActionView = 2131361856;
+			// aapt resource value: 0x7f0b0040
+			public const int collapseActionView = 2131427392;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int container = 2131361958;
+			// aapt resource value: 0x7f0b00a6
+			public const int container = 2131427494;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int content = 2131361922;
+			// aapt resource value: 0x7f0b0082
+			public const int content = 2131427458;
 			
-			// aapt resource value: 0x7f0a0075
-			public const int contentPanel = 2131361909;
+			// aapt resource value: 0x7f0b0075
+			public const int contentPanel = 2131427445;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int coordinator = 2131361959;
+			// aapt resource value: 0x7f0b00a7
+			public const int coordinator = 2131427495;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int custom = 2131361916;
+			// aapt resource value: 0x7f0b007c
+			public const int custom = 2131427452;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int customPanel = 2131361915;
+			// aapt resource value: 0x7f0b007b
+			public const int customPanel = 2131427451;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int decor_content_parent = 2131361931;
+			// aapt resource value: 0x7f0b008b
+			public const int decor_content_parent = 2131427467;
 			
-			// aapt resource value: 0x7f0a006f
-			public const int default_activity_button = 2131361903;
+			// aapt resource value: 0x7f0b006f
+			public const int default_activity_button = 2131427439;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int design_bottom_sheet = 2131361961;
+			// aapt resource value: 0x7f0b00a9
+			public const int design_bottom_sheet = 2131427497;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int design_menu_item_action_area = 2131361966;
+			// aapt resource value: 0x7f0b00ae
+			public const int design_menu_item_action_area = 2131427502;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int design_menu_item_action_area_stub = 2131361965;
+			// aapt resource value: 0x7f0b00ad
+			public const int design_menu_item_action_area_stub = 2131427501;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int design_menu_item_text = 2131361964;
+			// aapt resource value: 0x7f0b00ac
+			public const int design_menu_item_text = 2131427500;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int design_navigation_view = 2131361963;
+			// aapt resource value: 0x7f0b00ab
+			public const int design_navigation_view = 2131427499;
 			
-			// aapt resource value: 0x7f0a0027
-			public const int disableHome = 2131361831;
+			// aapt resource value: 0x7f0b0027
+			public const int disableHome = 2131427367;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int edit_query = 2131361935;
+			// aapt resource value: 0x7f0b008f
+			public const int edit_query = 2131427471;
 			
-			// aapt resource value: 0x7f0a0037
-			public const int end = 2131361847;
+			// aapt resource value: 0x7f0b0037
+			public const int end = 2131427383;
 			
-			// aapt resource value: 0x7f0a00f3
-			public const int end_padder = 2131362035;
+			// aapt resource value: 0x7f0b00f3
+			public const int end_padder = 2131427571;
 			
-			// aapt resource value: 0x7f0a0046
-			public const int enterAlways = 2131361862;
+			// aapt resource value: 0x7f0b0046
+			public const int enterAlways = 2131427398;
 			
-			// aapt resource value: 0x7f0a0047
-			public const int enterAlwaysCollapsed = 2131361863;
+			// aapt resource value: 0x7f0b0047
+			public const int enterAlwaysCollapsed = 2131427399;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int exitUntilCollapsed = 2131361864;
+			// aapt resource value: 0x7f0b0048
+			public const int exitUntilCollapsed = 2131427400;
 			
-			// aapt resource value: 0x7f0a006d
-			public const int expand_activities_button = 2131361901;
+			// aapt resource value: 0x7f0b006d
+			public const int expand_activities_button = 2131427437;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int expanded_menu = 2131361925;
+			// aapt resource value: 0x7f0b0085
+			public const int expanded_menu = 2131427461;
 			
-			// aapt resource value: 0x7f0a005e
-			public const int fill = 2131361886;
+			// aapt resource value: 0x7f0b005e
+			public const int fill = 2131427422;
 			
-			// aapt resource value: 0x7f0a0063
-			public const int fill_horizontal = 2131361891;
+			// aapt resource value: 0x7f0b0063
+			public const int fill_horizontal = 2131427427;
 			
-			// aapt resource value: 0x7f0a0053
-			public const int fill_vertical = 2131361875;
+			// aapt resource value: 0x7f0b0053
+			public const int fill_vertical = 2131427411;
 			
-			// aapt resource value: 0x7f0a005f
-			public const int filled = 2131361887;
+			// aapt resource value: 0x7f0b005f
+			public const int filled = 2131427423;
 			
-			// aapt resource value: 0x7f0a005c
-			public const int @fixed = 2131361884;
+			// aapt resource value: 0x7f0b005c
+			public const int @fixed = 2131427420;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int flyoutcontent_appbar = 2131361968;
+			// aapt resource value: 0x7f0b00b0
+			public const int flyoutcontent_appbar = 2131427504;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int flyoutcontent_recycler = 2131361969;
+			// aapt resource value: 0x7f0b00b1
+			public const int flyoutcontent_recycler = 2131427505;
 			
-			// aapt resource value: 0x7f0a0067
-			public const int forever = 2131361895;
+			// aapt resource value: 0x7f0b0067
+			public const int forever = 2131427431;
 			
-			// aapt resource value: 0x7f0a000a
-			public const int ghost_view = 2131361802;
+			// aapt resource value: 0x7f0b000a
+			public const int ghost_view = 2131427338;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int group_divider = 2131361921;
+			// aapt resource value: 0x7f0b0081
+			public const int group_divider = 2131427457;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int home = 2131361797;
+			// aapt resource value: 0x7f0b0005
+			public const int home = 2131427333;
 			
-			// aapt resource value: 0x7f0a0028
-			public const int homeAsUp = 2131361832;
+			// aapt resource value: 0x7f0b0028
+			public const int homeAsUp = 2131427368;
 			
-			// aapt resource value: 0x7f0a0071
-			public const int icon = 2131361905;
+			// aapt resource value: 0x7f0b0071
+			public const int icon = 2131427441;
 			
-			// aapt resource value: 0x7f0a00f2
-			public const int icon_group = 2131362034;
+			// aapt resource value: 0x7f0b00f2
+			public const int icon_group = 2131427570;
 			
-			// aapt resource value: 0x7f0a0041
-			public const int ifRoom = 2131361857;
+			// aapt resource value: 0x7f0b0041
+			public const int ifRoom = 2131427393;
 			
-			// aapt resource value: 0x7f0a006e
-			public const int image = 2131361902;
+			// aapt resource value: 0x7f0b006e
+			public const int image = 2131427438;
 			
-			// aapt resource value: 0x7f0a00ee
-			public const int info = 2131362030;
+			// aapt resource value: 0x7f0b00ee
+			public const int info = 2131427566;
 			
-			// aapt resource value: 0x7f0a0068
-			public const int italic = 2131361896;
+			// aapt resource value: 0x7f0b0068
+			public const int italic = 2131427432;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int item_touch_helper_previous_elevation = 2131361792;
+			// aapt resource value: 0x7f0b0000
+			public const int item_touch_helper_previous_elevation = 2131427328;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int labeled = 2131361870;
+			// aapt resource value: 0x7f0b004e
+			public const int labeled = 2131427406;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int largeLabel = 2131361957;
+			// aapt resource value: 0x7f0b00a5
+			public const int largeLabel = 2131427493;
 			
-			// aapt resource value: 0x7f0a0054
-			public const int left = 2131361876;
+			// aapt resource value: 0x7f0b0054
+			public const int left = 2131427412;
 			
-			// aapt resource value: 0x7f0a001c
-			public const int line1 = 2131361820;
+			// aapt resource value: 0x7f0b001c
+			public const int line1 = 2131427356;
 			
-			// aapt resource value: 0x7f0a001d
-			public const int line3 = 2131361821;
+			// aapt resource value: 0x7f0b001d
+			public const int line3 = 2131427357;
 			
-			// aapt resource value: 0x7f0a0024
-			public const int listMode = 2131361828;
+			// aapt resource value: 0x7f0b0024
+			public const int listMode = 2131427364;
 			
-			// aapt resource value: 0x7f0a0070
-			public const int list_item = 2131361904;
+			// aapt resource value: 0x7f0b0070
+			public const int list_item = 2131427440;
 			
-			// aapt resource value: 0x7f0a00f4
-			public const int main_appbar = 2131362036;
+			// aapt resource value: 0x7f0b00f4
+			public const int main_appbar = 2131427572;
 			
-			// aapt resource value: 0x7f0a00f7
-			public const int main_scrollview = 2131362039;
+			// aapt resource value: 0x7f0b00f7
+			public const int main_scrollview = 2131427575;
 			
-			// aapt resource value: 0x7f0a00f6
-			public const int main_tablayout = 2131362038;
+			// aapt resource value: 0x7f0b00f6
+			public const int main_tablayout = 2131427574;
 			
-			// aapt resource value: 0x7f0a00f5
-			public const int main_toolbar = 2131362037;
+			// aapt resource value: 0x7f0b00f5
+			public const int main_toolbar = 2131427573;
 			
-			// aapt resource value: 0x7f0a00fe
-			public const int masked = 2131362046;
+			// aapt resource value: 0x7f0b00fe
+			public const int masked = 2131427582;
 			
-			// aapt resource value: 0x7f0a00e7
-			public const int media_actions = 2131362023;
+			// aapt resource value: 0x7f0b00e7
+			public const int media_actions = 2131427559;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int message = 2131361948;
+			// aapt resource value: 0x7f0b009c
+			public const int message = 2131427484;
 			
-			// aapt resource value: 0x7f0a0038
-			public const int middle = 2131361848;
+			// aapt resource value: 0x7f0b0038
+			public const int middle = 2131427384;
 			
-			// aapt resource value: 0x7f0a0059
-			public const int mini = 2131361881;
+			// aapt resource value: 0x7f0b0059
+			public const int mini = 2131427417;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int mr_art = 2131361998;
+			// aapt resource value: 0x7f0b00ce
+			public const int mr_art = 2131427534;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int mr_cast_checkbox = 2131361983;
+			// aapt resource value: 0x7f0b00bf
+			public const int mr_cast_checkbox = 2131427519;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int mr_cast_close_button = 2131361976;
+			// aapt resource value: 0x7f0b00b8
+			public const int mr_cast_close_button = 2131427512;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int mr_cast_group_icon = 2131361971;
+			// aapt resource value: 0x7f0b00b3
+			public const int mr_cast_group_icon = 2131427507;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int mr_cast_group_name = 2131361972;
+			// aapt resource value: 0x7f0b00b4
+			public const int mr_cast_group_name = 2131427508;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int mr_cast_list = 2131361970;
+			// aapt resource value: 0x7f0b00b2
+			public const int mr_cast_list = 2131427506;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int mr_cast_meta = 2131361975;
+			// aapt resource value: 0x7f0b00b7
+			public const int mr_cast_meta = 2131427511;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int mr_cast_meta_art = 2131361977;
+			// aapt resource value: 0x7f0b00b9
+			public const int mr_cast_meta_art = 2131427513;
 			
-			// aapt resource value: 0x7f0a00bb
-			public const int mr_cast_meta_subtitle = 2131361979;
+			// aapt resource value: 0x7f0b00bb
+			public const int mr_cast_meta_subtitle = 2131427515;
 			
-			// aapt resource value: 0x7f0a00ba
-			public const int mr_cast_meta_title = 2131361978;
+			// aapt resource value: 0x7f0b00ba
+			public const int mr_cast_meta_title = 2131427514;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int mr_cast_route_icon = 2131361981;
+			// aapt resource value: 0x7f0b00bd
+			public const int mr_cast_route_icon = 2131427517;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int mr_cast_route_name = 2131361982;
+			// aapt resource value: 0x7f0b00be
+			public const int mr_cast_route_name = 2131427518;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int mr_cast_stop_button = 2131361980;
+			// aapt resource value: 0x7f0b00bc
+			public const int mr_cast_stop_button = 2131427516;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int mr_cast_volume_layout = 2131361984;
+			// aapt resource value: 0x7f0b00c0
+			public const int mr_cast_volume_layout = 2131427520;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int mr_cast_volume_slider = 2131361985;
+			// aapt resource value: 0x7f0b00c1
+			public const int mr_cast_volume_slider = 2131427521;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int mr_chooser_list = 2131361987;
+			// aapt resource value: 0x7f0b00c3
+			public const int mr_chooser_list = 2131427523;
 			
-			// aapt resource value: 0x7f0a00c6
-			public const int mr_chooser_route_desc = 2131361990;
+			// aapt resource value: 0x7f0b00c6
+			public const int mr_chooser_route_desc = 2131427526;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int mr_chooser_route_icon = 2131361988;
+			// aapt resource value: 0x7f0b00c4
+			public const int mr_chooser_route_icon = 2131427524;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int mr_chooser_route_name = 2131361989;
+			// aapt resource value: 0x7f0b00c5
+			public const int mr_chooser_route_name = 2131427525;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int mr_chooser_title = 2131361986;
+			// aapt resource value: 0x7f0b00c2
+			public const int mr_chooser_title = 2131427522;
 			
-			// aapt resource value: 0x7f0a00cb
-			public const int mr_close = 2131361995;
+			// aapt resource value: 0x7f0b00cb
+			public const int mr_close = 2131427531;
 			
-			// aapt resource value: 0x7f0a00d1
-			public const int mr_control_divider = 2131362001;
+			// aapt resource value: 0x7f0b00d1
+			public const int mr_control_divider = 2131427537;
 			
-			// aapt resource value: 0x7f0a00dc
-			public const int mr_control_playback_ctrl = 2131362012;
+			// aapt resource value: 0x7f0b00dc
+			public const int mr_control_playback_ctrl = 2131427548;
 			
-			// aapt resource value: 0x7f0a00df
-			public const int mr_control_subtitle = 2131362015;
+			// aapt resource value: 0x7f0b00df
+			public const int mr_control_subtitle = 2131427551;
 			
-			// aapt resource value: 0x7f0a00de
-			public const int mr_control_title = 2131362014;
+			// aapt resource value: 0x7f0b00de
+			public const int mr_control_title = 2131427550;
 			
-			// aapt resource value: 0x7f0a00dd
-			public const int mr_control_title_container = 2131362013;
+			// aapt resource value: 0x7f0b00dd
+			public const int mr_control_title_container = 2131427549;
 			
-			// aapt resource value: 0x7f0a00cc
-			public const int mr_custom_control = 2131361996;
+			// aapt resource value: 0x7f0b00cc
+			public const int mr_custom_control = 2131427532;
 			
-			// aapt resource value: 0x7f0a00cd
-			public const int mr_default_control = 2131361997;
+			// aapt resource value: 0x7f0b00cd
+			public const int mr_default_control = 2131427533;
 			
-			// aapt resource value: 0x7f0a00c8
-			public const int mr_dialog_area = 2131361992;
+			// aapt resource value: 0x7f0b00c8
+			public const int mr_dialog_area = 2131427528;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int mr_dialog_header_name = 2131362007;
+			// aapt resource value: 0x7f0b00d7
+			public const int mr_dialog_header_name = 2131427543;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int mr_expandable_area = 2131361991;
+			// aapt resource value: 0x7f0b00c7
+			public const int mr_expandable_area = 2131427527;
 			
-			// aapt resource value: 0x7f0a00e0
-			public const int mr_group_expand_collapse = 2131362016;
+			// aapt resource value: 0x7f0b00e0
+			public const int mr_group_expand_collapse = 2131427552;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int mr_group_volume_route_name = 2131361973;
+			// aapt resource value: 0x7f0b00b5
+			public const int mr_group_volume_route_name = 2131427509;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int mr_group_volume_slider = 2131361974;
+			// aapt resource value: 0x7f0b00b6
+			public const int mr_group_volume_slider = 2131427510;
 			
-			// aapt resource value: 0x7f0a00cf
-			public const int mr_media_main_control = 2131361999;
+			// aapt resource value: 0x7f0b00cf
+			public const int mr_media_main_control = 2131427535;
 			
-			// aapt resource value: 0x7f0a00ca
-			public const int mr_name = 2131361994;
+			// aapt resource value: 0x7f0b00ca
+			public const int mr_name = 2131427530;
 			
-			// aapt resource value: 0x7f0a00d8
-			public const int mr_picker_close_button = 2131362008;
+			// aapt resource value: 0x7f0b00d8
+			public const int mr_picker_close_button = 2131427544;
 			
-			// aapt resource value: 0x7f0a00d9
-			public const int mr_picker_list = 2131362009;
+			// aapt resource value: 0x7f0b00d9
+			public const int mr_picker_list = 2131427545;
 			
-			// aapt resource value: 0x7f0a00da
-			public const int mr_picker_route_icon = 2131362010;
+			// aapt resource value: 0x7f0b00da
+			public const int mr_picker_route_icon = 2131427546;
 			
-			// aapt resource value: 0x7f0a00db
-			public const int mr_picker_route_name = 2131362011;
+			// aapt resource value: 0x7f0b00db
+			public const int mr_picker_route_name = 2131427547;
 			
-			// aapt resource value: 0x7f0a00d0
-			public const int mr_playback_control = 2131362000;
+			// aapt resource value: 0x7f0b00d0
+			public const int mr_playback_control = 2131427536;
 			
-			// aapt resource value: 0x7f0a00c9
-			public const int mr_title_bar = 2131361993;
+			// aapt resource value: 0x7f0b00c9
+			public const int mr_title_bar = 2131427529;
 			
-			// aapt resource value: 0x7f0a00d2
-			public const int mr_volume_control = 2131362002;
+			// aapt resource value: 0x7f0b00d2
+			public const int mr_volume_control = 2131427538;
 			
-			// aapt resource value: 0x7f0a00d3
-			public const int mr_volume_group_list = 2131362003;
+			// aapt resource value: 0x7f0b00d3
+			public const int mr_volume_group_list = 2131427539;
 			
-			// aapt resource value: 0x7f0a00d5
-			public const int mr_volume_item_icon = 2131362005;
+			// aapt resource value: 0x7f0b00d5
+			public const int mr_volume_item_icon = 2131427541;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int mr_volume_slider = 2131362006;
+			// aapt resource value: 0x7f0b00d6
+			public const int mr_volume_slider = 2131427542;
 			
-			// aapt resource value: 0x7f0a0014
-			public const int mtrl_child_content_container = 2131361812;
+			// aapt resource value: 0x7f0b0014
+			public const int mtrl_child_content_container = 2131427348;
 			
-			// aapt resource value: 0x7f0a0015
-			public const int mtrl_internal_children_alpha_tag = 2131361813;
+			// aapt resource value: 0x7f0b0015
+			public const int mtrl_internal_children_alpha_tag = 2131427349;
 			
-			// aapt resource value: 0x7f0a002f
-			public const int multiply = 2131361839;
+			// aapt resource value: 0x7f0b002f
+			public const int multiply = 2131427375;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int navigation_header_container = 2131361962;
+			// aapt resource value: 0x7f0b00aa
+			public const int navigation_header_container = 2131427498;
 			
-			// aapt resource value: 0x7f0a0042
-			public const int never = 2131361858;
+			// aapt resource value: 0x7f0b0042
+			public const int never = 2131427394;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int none = 2131361833;
+			// aapt resource value: 0x7f0b0029
+			public const int none = 2131427369;
 			
-			// aapt resource value: 0x7f0a0025
-			public const int normal = 2131361829;
+			// aapt resource value: 0x7f0b0025
+			public const int normal = 2131427365;
 			
-			// aapt resource value: 0x7f0a00f0
-			public const int notification_background = 2131362032;
+			// aapt resource value: 0x7f0b00f0
+			public const int notification_background = 2131427568;
 			
-			// aapt resource value: 0x7f0a00ea
-			public const int notification_main_column = 2131362026;
+			// aapt resource value: 0x7f0b00ea
+			public const int notification_main_column = 2131427562;
 			
-			// aapt resource value: 0x7f0a00e9
-			public const int notification_main_column_container = 2131362025;
+			// aapt resource value: 0x7f0b00e9
+			public const int notification_main_column_container = 2131427561;
 			
-			// aapt resource value: 0x7f0a0060
-			public const int outline = 2131361888;
+			// aapt resource value: 0x7f0b0060
+			public const int outline = 2131427424;
 			
-			// aapt resource value: 0x7f0a0057
-			public const int parallax = 2131361879;
+			// aapt resource value: 0x7f0b0057
+			public const int parallax = 2131427415;
 			
-			// aapt resource value: 0x7f0a0074
-			public const int parentPanel = 2131361908;
+			// aapt resource value: 0x7f0b0074
+			public const int parentPanel = 2131427444;
 			
-			// aapt resource value: 0x7f0a000b
-			public const int parent_matrix = 2131361803;
+			// aapt resource value: 0x7f0b000b
+			public const int parent_matrix = 2131427339;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int pin = 2131361880;
+			// aapt resource value: 0x7f0b0058
+			public const int pin = 2131427416;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int progress_circular = 2131361798;
+			// aapt resource value: 0x7f0b0006
+			public const int progress_circular = 2131427334;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int progress_horizontal = 2131361799;
+			// aapt resource value: 0x7f0b0007
+			public const int progress_horizontal = 2131427335;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int radio = 2131361927;
+			// aapt resource value: 0x7f0b0087
+			public const int radio = 2131427463;
 			
-			// aapt resource value: 0x7f0a0055
-			public const int right = 2131361877;
+			// aapt resource value: 0x7f0b0055
+			public const int right = 2131427413;
 			
-			// aapt resource value: 0x7f0a00ef
-			public const int right_icon = 2131362031;
+			// aapt resource value: 0x7f0b00ef
+			public const int right_icon = 2131427567;
 			
-			// aapt resource value: 0x7f0a00eb
-			public const int right_side = 2131362027;
+			// aapt resource value: 0x7f0b00eb
+			public const int right_side = 2131427563;
 			
-			// aapt resource value: 0x7f0a000c
-			public const int save_image_matrix = 2131361804;
+			// aapt resource value: 0x7f0b000c
+			public const int save_image_matrix = 2131427340;
 			
-			// aapt resource value: 0x7f0a000d
-			public const int save_non_transition_alpha = 2131361805;
+			// aapt resource value: 0x7f0b000d
+			public const int save_non_transition_alpha = 2131427341;
 			
-			// aapt resource value: 0x7f0a000e
-			public const int save_scale_type = 2131361806;
+			// aapt resource value: 0x7f0b000e
+			public const int save_scale_type = 2131427342;
 			
-			// aapt resource value: 0x7f0a0030
-			public const int screen = 2131361840;
+			// aapt resource value: 0x7f0b0030
+			public const int screen = 2131427376;
 			
-			// aapt resource value: 0x7f0a0049
-			public const int scroll = 2131361865;
+			// aapt resource value: 0x7f0b0049
+			public const int scroll = 2131427401;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int scrollIndicatorDown = 2131361914;
+			// aapt resource value: 0x7f0b007a
+			public const int scrollIndicatorDown = 2131427450;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int scrollIndicatorUp = 2131361910;
+			// aapt resource value: 0x7f0b0076
+			public const int scrollIndicatorUp = 2131427446;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int scrollView = 2131361911;
+			// aapt resource value: 0x7f0b0077
+			public const int scrollView = 2131427447;
 			
-			// aapt resource value: 0x7f0a005d
-			public const int scrollable = 2131361885;
+			// aapt resource value: 0x7f0b005d
+			public const int scrollable = 2131427421;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int search_badge = 2131361937;
+			// aapt resource value: 0x7f0b0091
+			public const int search_badge = 2131427473;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int search_bar = 2131361936;
+			// aapt resource value: 0x7f0b0090
+			public const int search_bar = 2131427472;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int search_button = 2131361938;
+			// aapt resource value: 0x7f0b0092
+			public const int search_button = 2131427474;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int search_close_btn = 2131361943;
+			// aapt resource value: 0x7f0b0097
+			public const int search_close_btn = 2131427479;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int search_edit_frame = 2131361939;
+			// aapt resource value: 0x7f0b0093
+			public const int search_edit_frame = 2131427475;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int search_go_btn = 2131361945;
+			// aapt resource value: 0x7f0b0099
+			public const int search_go_btn = 2131427481;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int search_mag_icon = 2131361940;
+			// aapt resource value: 0x7f0b0094
+			public const int search_mag_icon = 2131427476;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int search_plate = 2131361941;
+			// aapt resource value: 0x7f0b0095
+			public const int search_plate = 2131427477;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int search_src_text = 2131361942;
+			// aapt resource value: 0x7f0b0096
+			public const int search_src_text = 2131427478;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int search_voice_btn = 2131361946;
+			// aapt resource value: 0x7f0b009a
+			public const int search_voice_btn = 2131427482;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int select_dialog_listview = 2131361947;
+			// aapt resource value: 0x7f0b009b
+			public const int select_dialog_listview = 2131427483;
 			
-			// aapt resource value: 0x7f0a004f
-			public const int selected = 2131361871;
+			// aapt resource value: 0x7f0b004f
+			public const int selected = 2131427407;
 			
-			// aapt resource value: 0x7f0a00f8
-			public const int shellcontent_appbar = 2131362040;
+			// aapt resource value: 0x7f0b00f8
+			public const int shellcontent_appbar = 2131427576;
 			
-			// aapt resource value: 0x7f0a00fa
-			public const int shellcontent_scrollview = 2131362042;
+			// aapt resource value: 0x7f0b00fa
+			public const int shellcontent_scrollview = 2131427578;
 			
-			// aapt resource value: 0x7f0a00f9
-			public const int shellcontent_toolbar = 2131362041;
+			// aapt resource value: 0x7f0b00f9
+			public const int shellcontent_toolbar = 2131427577;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int shortcut = 2131361923;
+			// aapt resource value: 0x7f0b0083
+			public const int shortcut = 2131427459;
 			
-			// aapt resource value: 0x7f0a002a
-			public const int showCustom = 2131361834;
+			// aapt resource value: 0x7f0b002a
+			public const int showCustom = 2131427370;
 			
-			// aapt resource value: 0x7f0a002b
-			public const int showHome = 2131361835;
+			// aapt resource value: 0x7f0b002b
+			public const int showHome = 2131427371;
 			
-			// aapt resource value: 0x7f0a002c
-			public const int showTitle = 2131361836;
+			// aapt resource value: 0x7f0b002c
+			public const int showTitle = 2131427372;
 			
-			// aapt resource value: 0x7f0a00fb
-			public const int sliding_tabs = 2131362043;
+			// aapt resource value: 0x7f0b00fb
+			public const int sliding_tabs = 2131427579;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int smallLabel = 2131361956;
+			// aapt resource value: 0x7f0b00a4
+			public const int smallLabel = 2131427492;
 			
-			// aapt resource value: 0x7f0a0016
-			public const int snackbar_action = 2131361814;
+			// aapt resource value: 0x7f0b0016
+			public const int snackbar_action = 2131427350;
 			
-			// aapt resource value: 0x7f0a0017
-			public const int snackbar_text = 2131361815;
+			// aapt resource value: 0x7f0b0017
+			public const int snackbar_text = 2131427351;
 			
-			// aapt resource value: 0x7f0a004a
-			public const int snap = 2131361866;
+			// aapt resource value: 0x7f0b004a
+			public const int snap = 2131427402;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int snapMargins = 2131361867;
+			// aapt resource value: 0x7f0b004b
+			public const int snapMargins = 2131427403;
 			
-			// aapt resource value: 0x7f0a0073
-			public const int spacer = 2131361907;
+			// aapt resource value: 0x7f0b0073
+			public const int spacer = 2131427443;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int split_action_bar = 2131361800;
+			// aapt resource value: 0x7f0b0008
+			public const int split_action_bar = 2131427336;
 			
-			// aapt resource value: 0x7f0a0031
-			public const int src_atop = 2131361841;
+			// aapt resource value: 0x7f0b0031
+			public const int src_atop = 2131427377;
 			
-			// aapt resource value: 0x7f0a0032
-			public const int src_in = 2131361842;
+			// aapt resource value: 0x7f0b0032
+			public const int src_in = 2131427378;
 			
-			// aapt resource value: 0x7f0a0033
-			public const int src_over = 2131361843;
+			// aapt resource value: 0x7f0b0033
+			public const int src_over = 2131427379;
 			
-			// aapt resource value: 0x7f0a0056
-			public const int start = 2131361878;
+			// aapt resource value: 0x7f0b0056
+			public const int start = 2131427414;
 			
-			// aapt resource value: 0x7f0a00e6
-			public const int status_bar_latest_event_content = 2131362022;
+			// aapt resource value: 0x7f0b00e6
+			public const int status_bar_latest_event_content = 2131427558;
 			
-			// aapt resource value: 0x7f0a005b
-			public const int stretch = 2131361883;
+			// aapt resource value: 0x7f0b005b
+			public const int stretch = 2131427419;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int submenuarrow = 2131361924;
+			// aapt resource value: 0x7f0b0084
+			public const int submenuarrow = 2131427460;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int submit_area = 2131361944;
+			// aapt resource value: 0x7f0b0098
+			public const int submit_area = 2131427480;
 			
-			// aapt resource value: 0x7f0a0026
-			public const int tabMode = 2131361830;
+			// aapt resource value: 0x7f0b0026
+			public const int tabMode = 2131427366;
 			
-			// aapt resource value: 0x7f0a001e
-			public const int tag_transition_group = 2131361822;
+			// aapt resource value: 0x7f0b001e
+			public const int tag_transition_group = 2131427358;
 			
-			// aapt resource value: 0x7f0a001f
-			public const int tag_unhandled_key_event_manager = 2131361823;
+			// aapt resource value: 0x7f0b001f
+			public const int tag_unhandled_key_event_manager = 2131427359;
 			
-			// aapt resource value: 0x7f0a0020
-			public const int tag_unhandled_key_listeners = 2131361824;
+			// aapt resource value: 0x7f0b0020
+			public const int tag_unhandled_key_listeners = 2131427360;
 			
-			// aapt resource value: 0x7f0a0021
-			public const int text = 2131361825;
+			// aapt resource value: 0x7f0b0021
+			public const int text = 2131427361;
 			
-			// aapt resource value: 0x7f0a0022
-			public const int text2 = 2131361826;
+			// aapt resource value: 0x7f0b0022
+			public const int text2 = 2131427362;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int textSpacerNoButtons = 2131361913;
+			// aapt resource value: 0x7f0b0079
+			public const int textSpacerNoButtons = 2131427449;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int textSpacerNoTitle = 2131361912;
+			// aapt resource value: 0x7f0b0078
+			public const int textSpacerNoTitle = 2131427448;
 			
-			// aapt resource value: 0x7f0a005a
-			public const int textStart = 2131361882;
+			// aapt resource value: 0x7f0b005a
+			public const int textStart = 2131427418;
 			
-			// aapt resource value: 0x7f0a00af
-			public const int text_input_password_toggle = 2131361967;
+			// aapt resource value: 0x7f0b00af
+			public const int text_input_password_toggle = 2131427503;
 			
-			// aapt resource value: 0x7f0a0018
-			public const int textinput_counter = 2131361816;
+			// aapt resource value: 0x7f0b0018
+			public const int textinput_counter = 2131427352;
 			
-			// aapt resource value: 0x7f0a0019
-			public const int textinput_error = 2131361817;
+			// aapt resource value: 0x7f0b0019
+			public const int textinput_error = 2131427353;
 			
-			// aapt resource value: 0x7f0a001a
-			public const int textinput_helper_text = 2131361818;
+			// aapt resource value: 0x7f0b001a
+			public const int textinput_helper_text = 2131427354;
 			
-			// aapt resource value: 0x7f0a00ec
-			public const int time = 2131362028;
+			// aapt resource value: 0x7f0b00ec
+			public const int time = 2131427564;
 			
-			// aapt resource value: 0x7f0a0023
-			public const int title = 2131361827;
+			// aapt resource value: 0x7f0b0023
+			public const int title = 2131427363;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int titleDividerNoCustom = 2131361920;
+			// aapt resource value: 0x7f0b0080
+			public const int titleDividerNoCustom = 2131427456;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int title_template = 2131361918;
+			// aapt resource value: 0x7f0b007e
+			public const int title_template = 2131427454;
 			
-			// aapt resource value: 0x7f0a00fc
-			public const int toolbar = 2131362044;
+			// aapt resource value: 0x7f0b00fc
+			public const int toolbar = 2131427580;
 			
-			// aapt resource value: 0x7f0a0045
-			public const int top = 2131361861;
+			// aapt resource value: 0x7f0b0045
+			public const int top = 2131427397;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int topPanel = 2131361917;
+			// aapt resource value: 0x7f0b007d
+			public const int topPanel = 2131427453;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int touch_outside = 2131361960;
+			// aapt resource value: 0x7f0b00a8
+			public const int touch_outside = 2131427496;
 			
-			// aapt resource value: 0x7f0a000f
-			public const int transition_current_scene = 2131361807;
+			// aapt resource value: 0x7f0b000f
+			public const int transition_current_scene = 2131427343;
 			
-			// aapt resource value: 0x7f0a0010
-			public const int transition_layout_save = 2131361808;
+			// aapt resource value: 0x7f0b0010
+			public const int transition_layout_save = 2131427344;
 			
-			// aapt resource value: 0x7f0a0011
-			public const int transition_position = 2131361809;
+			// aapt resource value: 0x7f0b0011
+			public const int transition_position = 2131427345;
 			
-			// aapt resource value: 0x7f0a0012
-			public const int transition_scene_layoutid_cache = 2131361810;
+			// aapt resource value: 0x7f0b0012
+			public const int transition_scene_layoutid_cache = 2131427346;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int transition_transform = 2131361811;
+			// aapt resource value: 0x7f0b0013
+			public const int transition_transform = 2131427347;
 			
-			// aapt resource value: 0x7f0a0034
-			public const int uniform = 2131361844;
+			// aapt resource value: 0x7f0b0034
+			public const int uniform = 2131427380;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int unlabeled = 2131361872;
+			// aapt resource value: 0x7f0b0050
+			public const int unlabeled = 2131427408;
 			
-			// aapt resource value: 0x7f0a0009
-			public const int up = 2131361801;
+			// aapt resource value: 0x7f0b0009
+			public const int up = 2131427337;
 			
-			// aapt resource value: 0x7f0a002d
-			public const int useLogo = 2131361837;
+			// aapt resource value: 0x7f0b002d
+			public const int useLogo = 2131427373;
 			
-			// aapt resource value: 0x7f0a001b
-			public const int view_offset_helper = 2131361819;
+			// aapt resource value: 0x7f0b001b
+			public const int view_offset_helper = 2131427355;
 			
-			// aapt resource value: 0x7f0a00fd
-			public const int visible = 2131362045;
+			// aapt resource value: 0x7f0b00fd
+			public const int visible = 2131427581;
 			
-			// aapt resource value: 0x7f0a00d4
-			public const int volume_item_container = 2131362004;
+			// aapt resource value: 0x7f0b00d4
+			public const int volume_item_container = 2131427540;
 			
-			// aapt resource value: 0x7f0a0043
-			public const int withText = 2131361859;
+			// aapt resource value: 0x7f0b0043
+			public const int withText = 2131427395;
 			
-			// aapt resource value: 0x7f0a0035
-			public const int wrap_content = 2131361845;
+			// aapt resource value: 0x7f0b0035
+			public const int wrap_content = 2131427381;
 			
 			static Id()
 			{
@@ -7659,239 +10242,245 @@ namespace MySquad.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0b0018
-			public const int abc_action_bar_home_description = 2131427352;
+			// aapt resource value: 0x7f09001a
+			public const int abc_action_bar_home_description = 2131296282;
 			
-			// aapt resource value: 0x7f0b0019
-			public const int abc_action_bar_up_description = 2131427353;
+			// aapt resource value: 0x7f09001b
+			public const int abc_action_bar_up_description = 2131296283;
 			
-			// aapt resource value: 0x7f0b001a
-			public const int abc_action_menu_overflow_description = 2131427354;
+			// aapt resource value: 0x7f09001c
+			public const int abc_action_menu_overflow_description = 2131296284;
 			
-			// aapt resource value: 0x7f0b001b
-			public const int abc_action_mode_done = 2131427355;
+			// aapt resource value: 0x7f09001d
+			public const int abc_action_mode_done = 2131296285;
 			
-			// aapt resource value: 0x7f0b001c
-			public const int abc_activity_chooser_view_see_all = 2131427356;
+			// aapt resource value: 0x7f09001e
+			public const int abc_activity_chooser_view_see_all = 2131296286;
 			
-			// aapt resource value: 0x7f0b001d
-			public const int abc_activitychooserview_choose_application = 2131427357;
+			// aapt resource value: 0x7f09001f
+			public const int abc_activitychooserview_choose_application = 2131296287;
 			
-			// aapt resource value: 0x7f0b001e
-			public const int abc_capital_off = 2131427358;
+			// aapt resource value: 0x7f090020
+			public const int abc_capital_off = 2131296288;
 			
-			// aapt resource value: 0x7f0b001f
-			public const int abc_capital_on = 2131427359;
+			// aapt resource value: 0x7f090021
+			public const int abc_capital_on = 2131296289;
 			
-			// aapt resource value: 0x7f0b0034
-			public const int abc_font_family_body_1_material = 2131427380;
+			// aapt resource value: 0x7f090036
+			public const int abc_font_family_body_1_material = 2131296310;
 			
-			// aapt resource value: 0x7f0b0035
-			public const int abc_font_family_body_2_material = 2131427381;
+			// aapt resource value: 0x7f090037
+			public const int abc_font_family_body_2_material = 2131296311;
 			
-			// aapt resource value: 0x7f0b0036
-			public const int abc_font_family_button_material = 2131427382;
+			// aapt resource value: 0x7f090038
+			public const int abc_font_family_button_material = 2131296312;
 			
-			// aapt resource value: 0x7f0b0037
-			public const int abc_font_family_caption_material = 2131427383;
+			// aapt resource value: 0x7f090039
+			public const int abc_font_family_caption_material = 2131296313;
 			
-			// aapt resource value: 0x7f0b0038
-			public const int abc_font_family_display_1_material = 2131427384;
+			// aapt resource value: 0x7f09003a
+			public const int abc_font_family_display_1_material = 2131296314;
 			
-			// aapt resource value: 0x7f0b0039
-			public const int abc_font_family_display_2_material = 2131427385;
+			// aapt resource value: 0x7f09003b
+			public const int abc_font_family_display_2_material = 2131296315;
 			
-			// aapt resource value: 0x7f0b003a
-			public const int abc_font_family_display_3_material = 2131427386;
+			// aapt resource value: 0x7f09003c
+			public const int abc_font_family_display_3_material = 2131296316;
 			
-			// aapt resource value: 0x7f0b003b
-			public const int abc_font_family_display_4_material = 2131427387;
+			// aapt resource value: 0x7f09003d
+			public const int abc_font_family_display_4_material = 2131296317;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int abc_font_family_headline_material = 2131427388;
+			// aapt resource value: 0x7f09003e
+			public const int abc_font_family_headline_material = 2131296318;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int abc_font_family_menu_material = 2131427389;
+			// aapt resource value: 0x7f09003f
+			public const int abc_font_family_menu_material = 2131296319;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int abc_font_family_subhead_material = 2131427390;
+			// aapt resource value: 0x7f090040
+			public const int abc_font_family_subhead_material = 2131296320;
 			
-			// aapt resource value: 0x7f0b003f
-			public const int abc_font_family_title_material = 2131427391;
+			// aapt resource value: 0x7f090041
+			public const int abc_font_family_title_material = 2131296321;
 			
-			// aapt resource value: 0x7f0b0020
-			public const int abc_menu_alt_shortcut_label = 2131427360;
+			// aapt resource value: 0x7f090022
+			public const int abc_menu_alt_shortcut_label = 2131296290;
 			
-			// aapt resource value: 0x7f0b0021
-			public const int abc_menu_ctrl_shortcut_label = 2131427361;
+			// aapt resource value: 0x7f090023
+			public const int abc_menu_ctrl_shortcut_label = 2131296291;
 			
-			// aapt resource value: 0x7f0b0022
-			public const int abc_menu_delete_shortcut_label = 2131427362;
+			// aapt resource value: 0x7f090024
+			public const int abc_menu_delete_shortcut_label = 2131296292;
 			
-			// aapt resource value: 0x7f0b0023
-			public const int abc_menu_enter_shortcut_label = 2131427363;
+			// aapt resource value: 0x7f090025
+			public const int abc_menu_enter_shortcut_label = 2131296293;
 			
-			// aapt resource value: 0x7f0b0024
-			public const int abc_menu_function_shortcut_label = 2131427364;
+			// aapt resource value: 0x7f090026
+			public const int abc_menu_function_shortcut_label = 2131296294;
 			
-			// aapt resource value: 0x7f0b0025
-			public const int abc_menu_meta_shortcut_label = 2131427365;
+			// aapt resource value: 0x7f090027
+			public const int abc_menu_meta_shortcut_label = 2131296295;
 			
-			// aapt resource value: 0x7f0b0026
-			public const int abc_menu_shift_shortcut_label = 2131427366;
+			// aapt resource value: 0x7f090028
+			public const int abc_menu_shift_shortcut_label = 2131296296;
 			
-			// aapt resource value: 0x7f0b0027
-			public const int abc_menu_space_shortcut_label = 2131427367;
+			// aapt resource value: 0x7f090029
+			public const int abc_menu_space_shortcut_label = 2131296297;
 			
-			// aapt resource value: 0x7f0b0028
-			public const int abc_menu_sym_shortcut_label = 2131427368;
+			// aapt resource value: 0x7f09002a
+			public const int abc_menu_sym_shortcut_label = 2131296298;
 			
-			// aapt resource value: 0x7f0b0029
-			public const int abc_prepend_shortcut_label = 2131427369;
+			// aapt resource value: 0x7f09002b
+			public const int abc_prepend_shortcut_label = 2131296299;
 			
-			// aapt resource value: 0x7f0b002a
-			public const int abc_search_hint = 2131427370;
+			// aapt resource value: 0x7f09002c
+			public const int abc_search_hint = 2131296300;
 			
-			// aapt resource value: 0x7f0b002b
-			public const int abc_searchview_description_clear = 2131427371;
+			// aapt resource value: 0x7f09002d
+			public const int abc_searchview_description_clear = 2131296301;
 			
-			// aapt resource value: 0x7f0b002c
-			public const int abc_searchview_description_query = 2131427372;
+			// aapt resource value: 0x7f09002e
+			public const int abc_searchview_description_query = 2131296302;
 			
-			// aapt resource value: 0x7f0b002d
-			public const int abc_searchview_description_search = 2131427373;
+			// aapt resource value: 0x7f09002f
+			public const int abc_searchview_description_search = 2131296303;
 			
-			// aapt resource value: 0x7f0b002e
-			public const int abc_searchview_description_submit = 2131427374;
+			// aapt resource value: 0x7f090030
+			public const int abc_searchview_description_submit = 2131296304;
 			
-			// aapt resource value: 0x7f0b002f
-			public const int abc_searchview_description_voice = 2131427375;
+			// aapt resource value: 0x7f090031
+			public const int abc_searchview_description_voice = 2131296305;
 			
-			// aapt resource value: 0x7f0b0030
-			public const int abc_shareactionprovider_share_with = 2131427376;
+			// aapt resource value: 0x7f090032
+			public const int abc_shareactionprovider_share_with = 2131296306;
 			
-			// aapt resource value: 0x7f0b0031
-			public const int abc_shareactionprovider_share_with_application = 2131427377;
+			// aapt resource value: 0x7f090033
+			public const int abc_shareactionprovider_share_with_application = 2131296307;
 			
-			// aapt resource value: 0x7f0b0032
-			public const int abc_toolbar_collapse_description = 2131427378;
+			// aapt resource value: 0x7f090034
+			public const int abc_toolbar_collapse_description = 2131296308;
 			
-			// aapt resource value: 0x7f0b0040
-			public const int appbar_scrolling_view_behavior = 2131427392;
+			// aapt resource value: 0x7f090001
+			public const int app_name = 2131296257;
 			
-			// aapt resource value: 0x7f0b0041
-			public const int bottom_sheet_behavior = 2131427393;
+			// aapt resource value: 0x7f090042
+			public const int appbar_scrolling_view_behavior = 2131296322;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int character_counter_content_description = 2131427394;
+			// aapt resource value: 0x7f090043
+			public const int bottom_sheet_behavior = 2131296323;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int character_counter_pattern = 2131427395;
+			// aapt resource value: 0x7f090044
+			public const int character_counter_content_description = 2131296324;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int fab_transformation_scrim_behavior = 2131427396;
+			// aapt resource value: 0x7f090045
+			public const int character_counter_pattern = 2131296325;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int fab_transformation_sheet_behavior = 2131427397;
+			// aapt resource value: 0x7f090046
+			public const int fab_transformation_scrim_behavior = 2131296326;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int hide_bottom_view_on_scroll_behavior = 2131427398;
+			// aapt resource value: 0x7f090047
+			public const int fab_transformation_sheet_behavior = 2131296327;
 			
-			// aapt resource value: 0x7f0b0000
-			public const int mr_button_content_description = 2131427328;
+			// aapt resource value: 0x7f090000
+			public const int hello = 2131296256;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int mr_cast_button_connected = 2131427329;
+			// aapt resource value: 0x7f090048
+			public const int hide_bottom_view_on_scroll_behavior = 2131296328;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int mr_cast_button_connecting = 2131427330;
+			// aapt resource value: 0x7f090002
+			public const int mr_button_content_description = 2131296258;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int mr_cast_button_disconnected = 2131427331;
+			// aapt resource value: 0x7f090003
+			public const int mr_cast_button_connected = 2131296259;
 			
-			// aapt resource value: 0x7f0b0015
-			public const int mr_cast_dialog_title_view_placeholder = 2131427349;
+			// aapt resource value: 0x7f090004
+			public const int mr_cast_button_connecting = 2131296260;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int mr_chooser_searching = 2131427332;
+			// aapt resource value: 0x7f090005
+			public const int mr_cast_button_disconnected = 2131296261;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int mr_chooser_title = 2131427333;
+			// aapt resource value: 0x7f090017
+			public const int mr_cast_dialog_title_view_placeholder = 2131296279;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int mr_controller_album_art = 2131427334;
+			// aapt resource value: 0x7f090006
+			public const int mr_chooser_searching = 2131296262;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int mr_controller_casting_screen = 2131427335;
+			// aapt resource value: 0x7f090007
+			public const int mr_chooser_title = 2131296263;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int mr_controller_close_description = 2131427336;
+			// aapt resource value: 0x7f090008
+			public const int mr_controller_album_art = 2131296264;
 			
-			// aapt resource value: 0x7f0b0009
-			public const int mr_controller_collapse_group = 2131427337;
+			// aapt resource value: 0x7f090009
+			public const int mr_controller_casting_screen = 2131296265;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int mr_controller_disconnect = 2131427338;
+			// aapt resource value: 0x7f09000a
+			public const int mr_controller_close_description = 2131296266;
 			
-			// aapt resource value: 0x7f0b000b
-			public const int mr_controller_expand_group = 2131427339;
+			// aapt resource value: 0x7f09000b
+			public const int mr_controller_collapse_group = 2131296267;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int mr_controller_no_info_available = 2131427340;
+			// aapt resource value: 0x7f09000c
+			public const int mr_controller_disconnect = 2131296268;
 			
-			// aapt resource value: 0x7f0b000d
-			public const int mr_controller_no_media_selected = 2131427341;
+			// aapt resource value: 0x7f09000d
+			public const int mr_controller_expand_group = 2131296269;
 			
-			// aapt resource value: 0x7f0b000e
-			public const int mr_controller_pause = 2131427342;
+			// aapt resource value: 0x7f09000e
+			public const int mr_controller_no_info_available = 2131296270;
 			
-			// aapt resource value: 0x7f0b000f
-			public const int mr_controller_play = 2131427343;
+			// aapt resource value: 0x7f09000f
+			public const int mr_controller_no_media_selected = 2131296271;
 			
-			// aapt resource value: 0x7f0b0010
-			public const int mr_controller_stop = 2131427344;
+			// aapt resource value: 0x7f090010
+			public const int mr_controller_pause = 2131296272;
 			
-			// aapt resource value: 0x7f0b0011
-			public const int mr_controller_stop_casting = 2131427345;
+			// aapt resource value: 0x7f090011
+			public const int mr_controller_play = 2131296273;
 			
-			// aapt resource value: 0x7f0b0012
-			public const int mr_controller_volume_slider = 2131427346;
+			// aapt resource value: 0x7f090012
+			public const int mr_controller_stop = 2131296274;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int mr_dialog_device_header = 2131427350;
+			// aapt resource value: 0x7f090013
+			public const int mr_controller_stop_casting = 2131296275;
 			
-			// aapt resource value: 0x7f0b0017
-			public const int mr_dialog_route_header = 2131427351;
+			// aapt resource value: 0x7f090014
+			public const int mr_controller_volume_slider = 2131296276;
 			
-			// aapt resource value: 0x7f0b0013
-			public const int mr_system_route_name = 2131427347;
+			// aapt resource value: 0x7f090018
+			public const int mr_dialog_device_header = 2131296280;
 			
-			// aapt resource value: 0x7f0b0014
-			public const int mr_user_route_category_name = 2131427348;
+			// aapt resource value: 0x7f090019
+			public const int mr_dialog_route_header = 2131296281;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int mtrl_chip_close_icon_content_description = 2131427399;
+			// aapt resource value: 0x7f090015
+			public const int mr_system_route_name = 2131296277;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int password_toggle_content_description = 2131427400;
+			// aapt resource value: 0x7f090016
+			public const int mr_user_route_category_name = 2131296278;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int path_password_eye = 2131427401;
+			// aapt resource value: 0x7f090049
+			public const int mtrl_chip_close_icon_content_description = 2131296329;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int path_password_eye_mask_strike_through = 2131427402;
+			// aapt resource value: 0x7f09004a
+			public const int password_toggle_content_description = 2131296330;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int path_password_eye_mask_visible = 2131427403;
+			// aapt resource value: 0x7f09004b
+			public const int path_password_eye = 2131296331;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int path_password_strike_through = 2131427404;
+			// aapt resource value: 0x7f09004c
+			public const int path_password_eye_mask_strike_through = 2131296332;
 			
-			// aapt resource value: 0x7f0b0033
-			public const int search_menu_title = 2131427379;
+			// aapt resource value: 0x7f09004d
+			public const int path_password_eye_mask_visible = 2131296333;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int status_bar_notification_info_overflow = 2131427405;
+			// aapt resource value: 0x7f09004e
+			public const int path_password_strike_through = 2131296334;
+			
+			// aapt resource value: 0x7f090035
+			public const int search_menu_title = 2131296309;
+			
+			// aapt resource value: 0x7f09004f
+			public const int status_bar_notification_info_overflow = 2131296335;
 			
 			static String()
 			{

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Class="MySquad.Views.SquadPage"
+    xmlns:controls="clr-namespace:Xamarin.Forms.DragNDrop;assembly=Xamarin.Forms.DragNDrop"
+    
+    >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Text="{Binding Squad.SquadLeader.FullName, StringFormat='Squad Leader: {0}'}"
+                FontSize="Large"
+                FontAttributes="Bold"
+                ></Label>
+
+            <ListView
+                x:Name="SquadListView"
+                ItemsSource="{Binding Squad}"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true"
+                SeparatorVisibility="None"      
+                controls:Sorting.IsSortable="True"
+            
+                
+                GroupDisplayBinding="{Binding Name}"
+                GroupShortNameBinding="{Binding FireTeamLeader.FullName, StringFormat='Fire Team Leader: {0}'}"
+                IsGroupingEnabled="True"
+                >
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="40">
+                            <StackLayout Orientation="Horizontal"
+                                 BackgroundColor="LightGray"
+                                 VerticalOptions="FillAndExpand">
+                                <Label Text="{Binding FireTeamLeader.Name}" FontSize="Large"/>
+                                <Label Text="{Binding FireTeamLeader.FullName}" FontSize="Medium"/>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label 
+                                        Text="{Binding Order}"
+                                        FontSize="Large" 
+                                        FontAttributes="Bold"
+                                        />
+
+                                    <Label Text="{Binding FullName}" 
+                                        LineBreakMode="NoWrap" 
+                                        Style="{DynamicResource ListItemTextStyle}" 
+                                        FontSize="16" />
+                                </StackLayout>
+
+                                <Label Text="{Binding Rank.ShortDescription}" 
+                                    LineBreakMode="NoWrap"
+                                    Style="{DynamicResource ListItemDetailTextStyle}"
+                                    FontSize="13" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
